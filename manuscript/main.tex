@@ -236,34 +236,6 @@ and discuss our confidence in this result with regard to our
 extensive sampling of populations within species, tests for hybrid 
 introgression, and the biogeographic concordance of our results.
 
-% TODO: add support values
-% Indicate some stats about this tree (inferred in CASTER?)
-% Indicate that the branch lengths are not scaled.
-% ...
-\begin{figure}[t!]
-	\centering
-	% \includegraphics[width=0.99\textwidth]{./figures/Fig1.png}
-	% \includegraphics[width=0.99\textwidth]{./figures/Fig1_v2.pdf}	
-	\caption{
-	Phylogeny of the North American plant clade \emph{Delphinium} sect. 
-	\emph{Diedropetala}.
-	(Left) A map of \emph{Delphinium} collections used in the current study.
-	Color codes correspond to six discrete geographic regions 
-	(red: California, orange: Intermountain West, yellow: Pacific Northwest, 
-	green: Eastern U.S., blue: Alaska and Canada, purple: Southwestern U.S.). 
-	% 
-	(Right) A species tree for 34 taxa with the primary biogeographic state
-	that each species occurs in shown as a colored marker. 
-	% 
-	% The primary region each species occurs in is mapped as a color state to 
-	% the tips of the final species tree phylogeny inferred in this study (center). 
-	% 
-	Next to each tip a letter indicates the current subsection designation of each species according to the Flora of North America treatment (Warnock 1997), demonstrating that the majority of these clade names are not monophyletic in our analyses, and that the North American Delphinium requires substantial taxonomic revision. B: Bicoloria, D: Depauperata, Ec: Echinata, Ex: Exaltata, G: Grumosa, M: Multiplex, S: Subscaposa, V: Virescens, W: Wislizenana. Images (right) highlight the floral diversity of Delphinium. Photos of D. viridescens courtesy of the Burke Herbarium (University of Washington) and D. xantholeucum courtesy of Eastern Washington University.
-	...
-	}
-	\label{fig:1}
-\end{figure}
-
 
 
 \section{Materials and Methods}
@@ -443,12 +415,15 @@ the variation across replicate runs and the centroid point for each sample.
         X SNPs using the quartet-based \emph{caster-site} method.
         Five distinct clades.
 	}
-	\label{fig:2}
+	\label{fig:sptree}
 \end{figure}
 
 
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
 \subsection{Genomic ddRAD sequencing and assembly}
 Genomic sequencing yielded a mean of 1,071,118 (+/- S.D. 712,371) raw reads 
@@ -493,11 +468,11 @@ trees, although the order of their relationships varied across the backbone
 between the ML and quartet-based trees.
 % 
 These higher level clades are also supported by a strong concordance with 
-biogeographic regions ({\bf Fig.~\ref{fig:1}}). Among the samples included in
+biogeographic regions ({\bf Fig.~\ref{fig:sptree}}). Among the samples included in
 our study, this corresponds to clades with primary distributions centered
 in California, the Intermountain West, the Pacific Northwest, the Eastern United
 States, Alaska and Canada, or the Southwestern United States.
-{\bf(Fig.~\ref{fig:2},~\ref{fig:S1})}. 
+{\bf(Fig.~\ref{fig:bigtree},~\ref{fig:S1})}. 
 
 
 All of our tree hypotheses support three early diverging lineages that split
@@ -527,18 +502,6 @@ concatenated phylogeny as our best hypothesis for downstream analyses.
 % found in the tree. 
 % Describe here what we mean by best... and how these clades were supported
 % by all analyses...
-
-
-
-
-\begin{figure}[p]
-	\centering
-	\includegraphics[width=0.99\textwidth]{./figures/trees_v2.pdf}
-	\caption{...
-	}
-	\label{fig:2}
-\end{figure}
-
 
 
 % Consistent clades.
@@ -608,6 +571,35 @@ putative hybrids in Warnock’s FNA treatment, to which we refer readers for a m
 comprehensive description of hypothesized hybridization events in \emph{Delphinium}. 
 In the following sections, we describe the first genomic evidence applied to 
 investigate three specific introgression hypotheses.
+
+
+% TODO: add support values
+% Indicate some stats about this tree (inferred in CASTER?)
+% Indicate that the branch lengths are not scaled.
+% ...
+\begin{figure}[t!]
+	\centering
+	% \includegraphics[width=0.99\textwidth]{./figures/Fig1.png}
+	% \includegraphics[width=0.99\textwidth]{./figures/Fig1_v2.pdf}	
+	\caption{
+	Phylogeny of the North American plant clade \emph{Delphinium} sect. 
+	\emph{Diedropetala}.
+	(Left) A map of \emph{Delphinium} collections used in the current study.
+	Color codes correspond to six discrete geographic regions 
+	(red: California, orange: Intermountain West, yellow: Pacific Northwest, 
+	green: Eastern U.S., blue: Alaska and Canada, purple: Southwestern U.S.). 
+	% 
+	(Right) A species tree for 34 taxa with the primary biogeographic state
+	that each species occurs in shown as a colored marker. 
+	% 
+	% The primary region each species occurs in is mapped as a color state to 
+	% the tips of the final species tree phylogeny inferred in this study (center). 
+	% 
+	Next to each tip a letter indicates the current subsection designation of each species according to the Flora of North America treatment (Warnock 1997), demonstrating that the majority of these clade names are not monophyletic in our analyses, and that the North American Delphinium requires substantial taxonomic revision. B: Bicoloria, D: Depauperata, Ec: Echinata, Ex: Exaltata, G: Grumosa, M: Multiplex, S: Subscaposa, V: Virescens, W: Wislizenana. Images (right) highlight the floral diversity of Delphinium. Photos of D. viridescens courtesy of the Burke Herbarium (University of Washington) and D. xantholeucum courtesy of Eastern Washington University.
+	...
+	}
+	\label{fig:sptree}
+\end{figure}
 
 
 \subsection{Admixture between clades}
