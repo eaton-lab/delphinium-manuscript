@@ -375,9 +375,12 @@ For each test, multiple individuals were used to represent
 We also examined additional tree-based hypotheses for admixture within 
 clades that exhibited low support in phylogenetic analyses, and to
 test previously proposed hypotheses of hybridization in \emph{Delphinium}. 
+% 
 This includes \emph{Delphinium} x diversicolor Rydberg 
 (formed by \emph{D. distichum}, \emph{D. nuttallianum}, and \emph{D. multiplex}), 
+% 
 \emph{Delphinium} x \emph{nutans} A. Nelson (formed by \emph{D. brachycentrum} and \emph{D. glaucum}),
+% 
 and a complex formed between \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre},
 since taxa from each of these groups were inferred as polyphyletic in 
 all phylogenetic analyses.
@@ -406,6 +409,18 @@ that subsampled a single SNP per RAD locus, and PCA visualizations show
 the variation across replicate runs and the centroid point for each sample.
 
 
+\subsection{Phylogeography}
+To investigate the relationships among populations and species with respect
+to their geographic distributions we performed focused phylogenetic and principal
+component analyses within the three hybrid complexes described above. 
+Maps were generated in folium using the "Esri.WorldTopoMap" base layer [CITE].
+For each clade, we generated a new alignment in ipyrad window extracter (mincov=10) 
+to include only the focal taxon samples, and to use \emph{D. californicum} and 
+\emph{D. hesperium-pallescens} as outgroups, since these California taxa are
+geographically isolated from the focal taxa and show no evidence of admixture
+in any analyses. Phylogenetic trees were inferred using both caster-site and raxml-ng using the same settings described above.
+
+
 \begin{figure}[t!]
 	\centering
 	  \includegraphics[width=0.99\textwidth]{./figures/caster-trees.pdf}	
@@ -415,7 +430,7 @@ the variation across replicate runs and the centroid point for each sample.
         X SNPs using the quartet-based \emph{caster-site} method.
         Five distinct clades.
 	}
-	\label{fig:sptree}
+	\label{fig:bigtree}
 \end{figure}
 
 
@@ -580,7 +595,7 @@ investigate three specific introgression hypotheses.
 \begin{figure}[t!]
 	\centering
 	% \includegraphics[width=0.99\textwidth]{./figures/Fig1.png}
-	% \includegraphics[width=0.99\textwidth]{./figures/Fig1_v2.pdf}	
+	\includegraphics[width=0.99\textwidth]{./figures/Fig1_v2.pdf}	
 	\caption{
 	Phylogeny of the North American plant clade \emph{Delphinium} sect. 
 	\emph{Diedropetala}.
