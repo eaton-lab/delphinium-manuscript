@@ -345,8 +345,8 @@ hypotheses in subsequent analyses to examine introgression.
 %\citep{Jabbour}.
 
 \subsection{Introgression analyses}
-We calculated D-statistics \citep{durand_2011} and F4-ratios using the
-Dtrios method in Dsuite [CITE].
+We calculated D-statistics \citep{durand_testing_2011} and F4-ratios using the
+Dtrios method in Dsuite \citep{malinsky_dsuite_2021}.
 This was performed using both species-level topology hypotheses, which were then
 examined using the Fbranch method in Dsuite to estimate admixture proportions.
 % 
@@ -371,20 +371,55 @@ For each test, multiple individuals were used to represent
 % among pooled replicate samples from monophyletic species, or populations, to represent 
 % the P1, P2, or P3 taxa. 
 
+\subsection{Hybrid complexes}
+We performed additional analyses focused on two hybrid species complexes that
+exhibited low support in phylogenetic analyses and evidence of introgressive
+admixture.
 % 
-We also examined additional tree-based hypotheses for admixture within 
-clades that exhibited low support in phylogenetic analyses, and to
-test previously proposed hypotheses of hybridization in \emph{Delphinium}. 
-% 
-This includes \emph{Delphinium} x diversicolor Rydberg 
-(formed by \emph{D. distichum}, \emph{D. nuttallianum}, and \emph{D. multiplex}), 
-% 
-\emph{Delphinium} x \emph{nutans} A. Nelson (formed by \emph{D. brachycentrum} and \emph{D. glaucum}),
-% 
-and a complex formed between \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre},
-since taxa from each of these groups were inferred as polyphyletic in 
-all phylogenetic analyses.
+This includes a complex formed by \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre} in the Southern Rocky Mountains, which is polyphyletic in all of our phylogenetic analyses, 
+and a complex formed by \emph{D. distichum}, \emph{D. nuttallianum}, and \emph{D. multiplex} in the Pacific Northwest, which has the hybrid taxon name \emph{D.} x \emph{diversicolor} Rydberg. These taxa were also polyphyletic in all of our phylogenetic analyses.
+
+For each species complex, we investigated phylogeny and admixture for the samples in this complex in isolation, and in combination with other taxa that showed evidence of admixture with them in the full Fbranch analysis. 
+For this, we inferred additional phylogenetic trees by 
+...
+In both species complexes, we inferred a phylogenetic tree that includes only the focal taxa and 
+...
+
+
+
+
+\subsection{Phylogeography}
+To investigate the relationships among populations and species with respect
+to their geographic distributions we performed focused phylogenetic and principal
+component analyses within the three hybrid complexes described above. 
+Maps were generated in folium using the "Esri.WorldTopoMap" base layer [CITE].
+For each clade, we generated a new alignment in ipyrad window extracter (mincov=10) 
+to include only the focal taxon samples, and to use \emph{D. californicum} and 
+\emph{D. hesperium-pallescens} as outgroups, since these California taxa are
+geographically isolated from the focal taxa and show no evidence of admixture
+in any analyses. Phylogenetic trees were inferred using both caster-site and raxml-ng using the same settings described above.
+
+
+% And we investigated a complex formed by 
+% (formed by \emph{D. distichum}, \emph{D. nuttallianum}, and \emph{D. multiplex}), 
+% % 
+% \emph{Delphinium} x \emph{nutans} A. Nelson (formed by \emph{D. brachycentrum} and \emph{D. glaucum}),
+% % 
+% and a complex formed between 
 % the `min4’ phylogenies.
+
+
+\begin{figure}[t!]
+	\centering
+	  \includegraphics[width=0.99\textwidth]{./figures/caster-trees.pdf}	
+	\caption{
+        Rooted phylogenetic tree for 150 individuals from 34 species of
+        \emph{Delphinium} sect. \emph{Diedropetala} inferred from 
+        X SNPs using the quartet-based \emph{caster-site} method.
+        Five distinct clades.
+	}
+	\label{fig:bigtree}
+\end{figure}
 
 
 \subsection{Principal component analysis}
@@ -408,30 +443,6 @@ To reduce the effect of linkage, each analysis was run for 25 replicates
 that subsampled a single SNP per RAD locus, and PCA visualizations show 
 the variation across replicate runs and the centroid point for each sample.
 
-
-\subsection{Phylogeography}
-To investigate the relationships among populations and species with respect
-to their geographic distributions we performed focused phylogenetic and principal
-component analyses within the three hybrid complexes described above. 
-Maps were generated in folium using the "Esri.WorldTopoMap" base layer [CITE].
-For each clade, we generated a new alignment in ipyrad window extracter (mincov=10) 
-to include only the focal taxon samples, and to use \emph{D. californicum} and 
-\emph{D. hesperium-pallescens} as outgroups, since these California taxa are
-geographically isolated from the focal taxa and show no evidence of admixture
-in any analyses. Phylogenetic trees were inferred using both caster-site and raxml-ng using the same settings described above.
-
-
-\begin{figure}[t!]
-	\centering
-	  \includegraphics[width=0.99\textwidth]{./figures/caster-trees.pdf}	
-	\caption{
-        Rooted phylogenetic tree for 150 individuals from 34 species of
-        \emph{Delphinium} sect. \emph{Diedropetala} inferred from 
-        X SNPs using the quartet-based \emph{caster-site} method.
-        Five distinct clades.
-	}
-	\label{fig:bigtree}
-\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -519,6 +530,36 @@ concatenated phylogeny as our best hypothesis for downstream analyses.
 % by all analyses...
 
 
+% TODO: add support values
+% Indicate some stats about this tree (inferred in CASTER?)
+% Indicate that the branch lengths are not scaled.
+% ...
+\begin{figure}[t!]
+	\centering
+	% \includegraphics[width=0.99\textwidth]{./figures/Fig1.png}
+	\includegraphics[width=0.99\textwidth]{./figures/Fig1_v2.pdf}	
+	\caption{
+	Phylogeny of the North American plant clade \emph{Delphinium} sect. 
+	\emph{Diedropetala}.
+	(Left) A map of \emph{Delphinium} collections used in the current study.
+	Color codes correspond to six discrete geographic regions 
+	(red: California, orange: Intermountain West, yellow: Pacific Northwest, 
+	green: Eastern U.S., blue: Alaska and Canada, purple: Southwestern U.S.). 
+	% 
+	(Right) A species tree for 34 taxa with the primary biogeographic state
+	that each species occurs in shown as a colored marker. 
+	% 
+	% The primary region each species occurs in is mapped as a color state to 
+	% the tips of the final species tree phylogeny inferred in this study (center). 
+	% 
+	Next to each tip a letter indicates the current subsection designation of each species according to the Flora of North America treatment (Warnock 1997), demonstrating that the majority of these clade names are not monophyletic in our analyses, and that the North American Delphinium requires substantial taxonomic revision. B: Bicoloria, D: Depauperata, Ec: Echinata, Ex: Exaltata, G: Grumosa, M: Multiplex, S: Subscaposa, V: Virescens, W: Wislizenana. Images (right) highlight the floral diversity of Delphinium. Photos of D. viridescens courtesy of the Burke Herbarium (University of Washington) and D. xantholeucum courtesy of Eastern Washington University.
+	...
+	}
+	\label{fig:sptree}
+\end{figure}
+
+
+
 % Consistent clades.
 Clade 5 is represented by 10 taxa in our study which share a biogeographical
 distribution primarily throughout the southwestern United States. This 
@@ -586,35 +627,6 @@ putative hybrids in Warnock’s FNA treatment, to which we refer readers for a m
 comprehensive description of hypothesized hybridization events in \emph{Delphinium}. 
 In the following sections, we describe the first genomic evidence applied to 
 investigate three specific introgression hypotheses.
-
-
-% TODO: add support values
-% Indicate some stats about this tree (inferred in CASTER?)
-% Indicate that the branch lengths are not scaled.
-% ...
-\begin{figure}[t!]
-	\centering
-	% \includegraphics[width=0.99\textwidth]{./figures/Fig1.png}
-	\includegraphics[width=0.99\textwidth]{./figures/Fig1_v2.pdf}	
-	\caption{
-	Phylogeny of the North American plant clade \emph{Delphinium} sect. 
-	\emph{Diedropetala}.
-	(Left) A map of \emph{Delphinium} collections used in the current study.
-	Color codes correspond to six discrete geographic regions 
-	(red: California, orange: Intermountain West, yellow: Pacific Northwest, 
-	green: Eastern U.S., blue: Alaska and Canada, purple: Southwestern U.S.). 
-	% 
-	(Right) A species tree for 34 taxa with the primary biogeographic state
-	that each species occurs in shown as a colored marker. 
-	% 
-	% The primary region each species occurs in is mapped as a color state to 
-	% the tips of the final species tree phylogeny inferred in this study (center). 
-	% 
-	Next to each tip a letter indicates the current subsection designation of each species according to the Flora of North America treatment (Warnock 1997), demonstrating that the majority of these clade names are not monophyletic in our analyses, and that the North American Delphinium requires substantial taxonomic revision. B: Bicoloria, D: Depauperata, Ec: Echinata, Ex: Exaltata, G: Grumosa, M: Multiplex, S: Subscaposa, V: Virescens, W: Wislizenana. Images (right) highlight the floral diversity of Delphinium. Photos of D. viridescens courtesy of the Burke Herbarium (University of Washington) and D. xantholeucum courtesy of Eastern Washington University.
-	...
-	}
-	\label{fig:sptree}
-\end{figure}
 
 
 \subsection{Admixture between clades}
@@ -695,14 +707,20 @@ may involve additional closely related species, we examined signatures of admixt
 among all seven species in clade 4. 
 % 
 
-\begin{figure}[t]
+\begin{figure}[t!]
 	\centering
-	%\includegraphics[width=0.99\textwidth]{./figures/trees_v2.pdf}
+	  \includegraphics[width=0.99\textwidth]{./figures/ramosum-robustum-alpestre}	
 	\caption{
-        Zoom into map + PCA of distichum complex.
+        Hybrid complex of \emph{D. robustum}, \emph{D. ramosum}, and \emph{D. cf. alpestre} in the Southern Rocky Mountains. 
+        (a-b) Three distinct clades are consistently supported in our phylogenetic analyses, which corresponding more closely with geography than with species determinations based on morphology.
+        (c-d) Phylogenetic analyses focused on the subset of samples in this complex
+        recovers the same three clades, with similar topologies recovered by caster-site and raxml-ng, respectively.
+        (e-f) PCA of the subset of samples in this hybrid complex.
+        (g-h) PCA with the inclusion of \emph{D. sapellonis}, which shows evidence of admixture.        
 	}
-	\label{fig:4}
+	\label{fig:robustum}
 \end{figure}
+
 
 % PCA analysis.
 
