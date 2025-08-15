@@ -60,8 +60,11 @@
 
 \begin{center}
 	{\bf \Large
-	Towards a comprehensive phylogeny of North American \\
-	\emph{Delphinium} (Ranunculaceae)
+	% Redrawing the Boundaries of North American \emph{Delphinium}: Geography and Admixture 
+	Geography and Admixture Shape the Genome-Scale Phylogeny \\[0.2cm]
+	of North American \emph{Delphinium}
+	% Towards a comprehensive phylogeny of North American \\
+	% \emph{Delphinium} (Ranunculaceae)
 	}\\[0.5cm]
 
 Jared B. Meek$^{1,*}$, Daniel Cook$^2$, B. Shaun Bushman$^3$, Deren A.R. Eaton$^{1,*}$\\[0.5cm]
@@ -390,39 +393,39 @@ For each test, multiple individuals were used to represent
 % among pooled replicate samples from monophyletic species, or populations, to represent 
 % the P1, P2, or P3 taxa. 
 
-\subsection{Hybrid complexes}
-We performed additional analyses focused on two hybrid species complexes that
-exhibited low support in phylogenetic analyses and evidence of introgressive
-admixture.
-% 
-This includes a complex formed by \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre} 
-in the Southern Rocky Mountains, which is polyphyletic in all of our phylogenetic analyses, 
-and a complex formed by \emph{D. distichum}, \emph{D. nuttallianum}, and \emph{D. multiplex} in 
-the Columbia Plateau of the Pacific Northwest, which has the hybrid taxon name 
-\emph{D.} x \emph{diversicolor} Rydberg. 
-These taxa were also polyphyletic in all of our phylogenetic analyses.
+% \subsection{Hybrid complexes}
+% We performed additional analyses focused on two hybrid species complexes that
+% exhibited low support in phylogenetic analyses and evidence of introgressive
+% admixture.
+% % 
+% This includes a complex formed by \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre} 
+% in the Southern Rocky Mountains, which is polyphyletic in all of our phylogenetic analyses, 
+% and a complex formed by \emph{D. distichum}, \emph{D. nuttallianum}, and \emph{D. multiplex} in 
+% the Columbia Plateau of the Pacific Northwest, which has the hybrid taxon name 
+% \emph{D.} x \emph{diversicolor} Rydberg. 
+% These taxa were also polyphyletic in all of our phylogenetic analyses.
 
 
-For each species complex, we investigated phylogeny and admixture for the samples in this
-complex in isolation, and in combination with other taxa that showed evidence of admixture
-with them in the full Fbranch analysis. 
-For this, we inferred additional phylogenetic trees by 
-...
-In both species complexes, we inferred a phylogenetic tree that includes only the focal taxa and 
-...
+% For each species complex, we investigated phylogeny and admixture for the samples in this
+% complex in isolation, and in combination with other taxa that showed evidence of admixture
+% with them in the full Fbranch analysis. 
+% For this, we inferred additional phylogenetic trees by 
+% ...
+% In both species complexes, we inferred a phylogenetic tree that includes only the focal taxa and 
+% ...
 
 
-\subsection{Phylogeography}
-To investigate the relationships among populations and species with respect
-to their geographic distributions we performed focused phylogenetic and principal
-component analyses within the three hybrid complexes described above. 
-Maps were generated in folium using the "Esri.WorldTopoMap" base layer [CITE].
-For each clade, we generated two new alignments using ipyrad-analysis window extracter 
-(mincov=10), one that includes only the focal taxon samples and a distant outgroup, 
-and one that includes these taxa in addition to suspected hybridizing taxa.
-For these datasets we used \emph{D. californicum} and \emph{D. hesperium} as outgroups, 
-since these California taxa are geographically isolated from the focal taxa and show no evidence of admixture
-in any analyses. Phylogenetic trees were inferred using both caster-site and raxml-ng using the same settings described above.
+% \subsection{Phylogeography}
+% To investigate the relationships among populations and species with respect
+% to their geographic distributions we performed focused phylogenetic and principal
+% component analyses within the three hybrid complexes described above. 
+% Maps were generated in folium using the "Esri.WorldTopoMap" base layer [CITE].
+% For each clade, we generated two new alignments using ipyrad-analysis window extracter 
+% (mincov=10), one that includes only the focal taxon samples and a distant outgroup, 
+% and one that includes these taxa in addition to suspected hybridizing taxa.
+% For these datasets we used \emph{D. californicum} and \emph{D. hesperium} as outgroups, 
+% since these California taxa are geographically isolated from the focal taxa and show no evidence of admixture
+% in any analyses. Phylogenetic trees were inferred using both caster-site and raxml-ng using the same settings described above.
 
 
 % And we investigated a complex formed by 
@@ -448,26 +451,26 @@ in any analyses. Phylogenetic trees were inferred using both caster-site and rax
 \end{figure}
 
 
-\subsection{Principal component analysis}
-We used principal components analysis (PCA) to further investigate patterns of
-population structure and admixture among species and populations. Because PCA 
-analyses are sensitive to missing data, we applied filtering and imputation 
-using the \emph{ipyrad-analysis} toolkit PCA tool, which is specifically 
-designed to address missing data common to RAD-seq datasets. 
-% 
-We ran three PC analyses, one for each hybrid-complex described above. 
-In each analysis, we assigned samples to groups based on evidence from 
-both their geographic sampling locations and their grouping into clades 
-during phylogenetic analyses. These groups were used during imputation to 
-probabilistically assign missing genotype calls based on allele frequencies
-within each group. 
-In \emph{ipyrad} this corresponds to the ‘sample’ imputation
-method, with the ‘minmap` and ‘mincov` parameters set to 0.5, to only retain 
-and call missing SNPs at sites where at least 50\% of the samples from all 
-populations had data present. 
-To reduce the effect of linkage, each analysis was run for 25 replicates
-that subsampled a single SNP per RAD locus, and PCA visualizations show 
-the variation across replicate runs and the centroid point for each sample.
+% \subsection{Principal component analysis}
+% We used principal components analysis (PCA) to further investigate patterns of
+% population structure and admixture among species and populations. Because PCA 
+% analyses are sensitive to missing data, we applied filtering and imputation 
+% using the \emph{ipyrad-analysis} toolkit PCA tool, which is specifically 
+% designed to address missing data common to RAD-seq datasets. 
+% % 
+% We ran three PC analyses, one for each hybrid-complex described above. 
+% In each analysis, we assigned samples to groups based on evidence from 
+% both their geographic sampling locations and their grouping into clades 
+% during phylogenetic analyses. These groups were used during imputation to 
+% probabilistically assign missing genotype calls based on allele frequencies
+% within each group. 
+% In \emph{ipyrad} this corresponds to the ‘sample’ imputation
+% method, with the ‘minmap` and ‘mincov` parameters set to 0.5, to only retain 
+% and call missing SNPs at sites where at least 50\% of the samples from all 
+% populations had data present. 
+% To reduce the effect of linkage, each analysis was run for 25 replicates
+% that subsampled a single SNP per RAD locus, and PCA visualizations show 
+% the variation across replicate runs and the centroid point for each sample.
 
 
 
@@ -492,7 +495,7 @@ The `min10' dataset included 29,196 loci with a total alignment size of
 (58.03\% missing).
 
 
-\subsection{Phylogenetic inference recovers monophyletic clades}
+\subsection{Phylogenetic inference recovers monophyletic taxa}
 All phylogenetic analyses recovered similar topologies, with individuals of the same 
 taxonomic determination consistently grouped into monophyletic clades. Few exceptions
 were observed within \emph{D. ramosum}, \emph{D. alpestre}, \emph{D. distichum}, and 
@@ -515,13 +518,13 @@ trees, respectively.
 
 A set of higher level clades was recovered across all trees that shows a strong
 concordance with biogeographic regions.
-This includes taxa associated with Great Basin, Pacific Northwest, California, 
+This includes taxa associated with the Great Basin, Pacific Northwest, California, 
 Intermountain West, Alaska/Canada, the Southwestern US, and Eastern North America
 (Fig.~\ref{fig:sptree}a-b). 
 % 
 All of our tree hypotheses support three early diverging lineages that split
 from the rest of our sampled \emph{Delphinium} taxa early in the radiation. 
-This includes \emph{D. patens}, \emph{D. nudicaule}, and \emph{trollifolium},
+This includes \emph{D. patens}, \emph{D. nudicaule}, and \emph{trolliifolium},
 which are distributed in central California, northern California, and northern 
 California and the Pacific Northweest, respectively. We focus most of our further
 analyses and discussion on the larger recovered clades in our study.
@@ -564,53 +567,52 @@ analyses and discussion on the larger recovered clades in our study.
 \end{figure}
 
 
-Support for the monophyly of each higher-level clade is >95\% in all trees, 
-but they conflict in the order of relationships among these clades and the 
-support for these splits (Fig.~\ref{fig:sptree}c-f).
-% 
-A grouping of clades IMW, ALCA, ENA, and SW is recovered with 100\% support
-across all trees, but their order of relationships within this clade also 
-varies among trees.
-% 
-The BAS1 and PNW clades tend to be recovered near the base of the tree, while
-the placement of the CAL clade is more variable and tends to have low support.
-This may be a result of admixture between species in the CAL clade and other
-early diverged lineages that also occur in California, which we examine below.
-% 
-Given the uncertainty in the order of relationships among these higher-level 
-clades, and our incomplete taxon sampling, it would be premature to draw strong
-conclusions from our results about the order and dynamics of historical biogeography
-in this clade.
-% 
-Nevertheless, our finding of strongly supported clades that correspond to distinct
-biogeographic regions represents a major revision to our understanding of the 
-phylogeny of \emph{Delphinium} sect. Diedropetala, suggesting need for a major 
-taxonomic revision.
-% 
-% In the following sections, we focus on elucidating the impact of hybrid admixture 
-% on our phylogenetic hypotheses.
-
-
-
 \subsection{Higher-level clades correspond strongly with biogeographic regions}
-
 We designate eight named clades that were consistently recovered across our
 phylogenetic analyses and correspond well to geographic regions. None of our
 clades correspond uniquely with an existing taxonomic subsection in Warnock's
 FNA treatment (Fig.~\ref{fig:sptree}b). 
+% 
+Support for monophyly of each of these clades is >95\% in all trees, despite 
+the fact that their ordering varies among trees, and has low support 
+(Fig.~\ref{fig:sptree}c-f).
+% 
+The grouping of clades IMW, ALCA, ENA, and SW is consistently recovered with 
+100\% support, uniting a clade that extends from Alaska to the southern Rocky
+Mountains. By contrast, relationships among clades distributed in California 
+(CAL) and the Great Basin (GB1 and GB2) are more variable among our trees.
+% 
+% 
+% This may be a result of admixture between species in the CAL clade and other
+% early diverged lineages that also occur in California, which we examine below.
+% 
+% Given the uncertainty in the order of relationships among these higher-level 
+% clades, and our incomplete taxon sampling, we are unable to reconstruct 
+% it would be premature to draw strong
+% conclusions from our results about the order and dynamics of historical biogeography
+% in this clade.
+% % 
+% Nevertheless, our finding of strongly supported clades that correspond to distinct
+% biogeographic regions represents a major revision to our understanding of the 
+% phylogeny of \emph{Delphinium} sect. Diedropetala, suggesting need for a major 
+% taxonomic revision.
+% 
+% In the following sections, we focus on elucidating the impact of hybrid admixture 
+% on our phylogenetic hypotheses.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Maybe we save this section for the discussion????
 % Consistent clades.
-The BAS1 clade occurs in the Great Basin and includes \emph{D. scaposum} and
+The GB1 clade occurs in the Great Basin and includes \emph{D. scaposum} and
 \emph{D. andersonii}. 
-% While these taxa are currently placed in the subsection
-% Subscaposa, other members of this subsection are spread across several clades of 
-% the phylogeny.
 Our sampled populations of \emph{D. scaposum} are from SE Nevada and NW Arizona, 
 and the populations of \emph{D. andersonii} from southern Idaho. 
 % 
 The BAS1 clade does not group with the other taxon we sampled from the Great
 Basin, \emph{D. stachydeum}, from northern Nevada. This taxon occurs as the 
 sole member of its clade, which we designate BAS2.
+% While these taxa are currently placed in the subsection
+% Subscaposa, other members of this subsection are spread across several clades of 
+% the phylogeny.
 
 The PNW clade corresponds to taxa distributed in mountainous regions of the Columbia 
 plateau in E Washington, NE Oregon, Idaho, and W Montana. It includes \emph{D. lineapetalum}, 
@@ -644,14 +646,20 @@ with the \emph{D. brachycentrum} in the ML topologies.
 % Members of this are all in the Exaltata subsection,
 % representing the "tall larkspurs". 
 
-The SW clade is represented by 10 taxa in our study which share a biogeographical
-distribution throughout the southwestern United States. This includes 
+The SW clade is represented by 8 taxa in our study which share a biogeographical
+distribution throughout the southwestern United States. This includes
 \emph{D. scopulorum}, \emph{D. geraniifolium}, \emph{D. alpestre},
 \emph{D. robustum}, \emph{D. ramosum}, \emph{D. andesicola}, \emph{D. sapellonis},
-and \emph{D. novomexicanum}. 
+and \emph{D. novomexicanum}. Notably, \emph{D. ramosum} and \emph{D. alpestre}
+are both polyphyletic. We recover three separate clades of \emph{D. alpestre}, each
+appearing sister to a clade of \emph{D. ramosum}, or of the very morphologically
+similar \emph{D. robustum}. We investigate this "replicated divergence" pattern in 
+greater detail below.
+
 % Notably, this clade includes many species 
 % classified in subsection Exaltata, ibut our results show clearly that many species
 % from Exaltata fall outside of this clade. Our 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -660,9 +668,56 @@ and \emph{D. novomexicanum}.
 \subsection{Hybridization and Introgression}
 Many \emph{Delphinium} species overlap both in geography and phenology in western 
 North America, increasing their potential to hybridize. Results from the Fbranch
-analysis show substantial admixture across the tree, both among close relatives as
-well as among more distantly related taxa.
+analysis show abundant admixture across the tree, both among species within each 
+geographic clade, as well as among taxa from different, but usually adjacent,
+geographic clades.
+
+\begin{figure}[t!]
+	\centering
+	\includegraphics[width=0.95\textwidth]{./figures/fbranch-caster-min10.pdf}
+	\caption{
+        Fbranch statistic ...
+	}
+	\label{fig:fbranch}
+\end{figure}
+
+\subsubsection{Early diverged and unsampled lineages}
+The strongest signal of admixture is among the early diverged lineages which are 
+represented in our sampling by taxa that are co-distributed in California.
+The estimated admixture proportion between \emph{D. patens} and \emph{D. nudicaule} 
+exceeds 15\%. 
+% ... while that between x and y and y and z is ...
+Given their position in the tree we cannot distinguish the directionality 
+of introgression. Our sampling includes three individuals of \emph{D. nudicaule}, but
+only one sample of \emph{D. patens}. 
 % 
+The other early diverged lineage represented by \emph{D. trolliifolium} also appears
+admixed with both of these taxa.
+Genomic evidence of admixture between these species is consistent with morphological
+descriptions of putative hybrids reported in the FNA and Jepson descriptions 
+of \emph{D. nudicaule} [Warnock, Koontz and Warnock]. We do not, however, find evidence
+of introgression between \emph{D. nudicaule} and other putative species in our sampling 
+that it was noted to hybridize with, including \emph{D. andersonii}, \emph{D. nuttallianum}, 
+and several other taxa not represented in our data.
+% 
+Although none of these early diverged lineages is supported as a unique introgressive
+donor into other \emph{Delphinium} taxa in represented in our study, they do provide
+evidence of other unsampled (or ghost) lineages that are likely introgressive donors.
+This is most notable in the clade sister to \emph{D. brachycentrum}, which includes 
+the widespread species \emph{D. glaucum} and \emph{D. exaltatum}. 
+This clade harbors ...
+% 
+
+...
+
+
+\subsubsection{Admixture within geographic clades}
+...
+
+
+\subsubsection{Admixture between geographic clades}
+...
+
 
 
 % We focused our genomic tests for introgression on species that are resolved as 
@@ -681,18 +736,23 @@ well as among more distantly related taxa.
 % investigate three specific introgression hypotheses.
 
 
-
-\begin{figure}[t]
-	\centering
-	%\includegraphics[width=0.99\textwidth]{./figures/trees_v2.pdf}
-	\caption{
-        Fbranch statistic ...
-	}
-	\label{fig:fbranch}
-\end{figure}
-
-
 \subsection{Hybrid complexes}
+
+\subsubsection{D. ramosum, alpestre and robustum}
+...
+While these taxa are supported as introgressive donors to several other taxa in 
+our f-branch analyses, they do not appear to be highly admixed with other 
+lineages...
+(1) Why is this group not monophyletic?
+(2) Why are each taxa within this group not monophyletic?
+
+
+\subsubsection{D. multiplex, distichum, nuttallianum}
+...
+
+
+
+\subsection{NOTES FOR LATER}
 
 \subsubsection{D. andersonii}
 Jepson says that \emph{D. andersonii} hybridizes with D. parishii and D. nuttallianum,
