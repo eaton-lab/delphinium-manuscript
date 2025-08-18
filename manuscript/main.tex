@@ -83,6 +83,8 @@ Keywords: ...
 \RaggedRight
 
 \section*{Abstract}
+
+\section*{Introduction}
 % Western North America contains unresolved plant clades that we need to understand better
 North America is a topographically and ecologically complex region that has fostered the 
 diversification of many endemic plant lineages. Its unique flora includes many rare and
@@ -383,7 +385,7 @@ examined alternative admixture ...
 Hypothesis tests were focused on clades that exhibited low 
 support in phylogenetic analyses, suggesting high conflict, and to test previously 
 proposed hypotheses of hybridization in \emph{Delphinium}. 
-For each test, multiple individuals were used to represent 
+For each test, multiple individuals were used to represent ... 
 
 % We calculated D-statistics (i.e., ABBA-BABA tests) with the \emph{ipyrad-analysis} 
 % toolkit to investigate the history of hybrid introgression between lineages 
@@ -498,17 +500,16 @@ The `min10' dataset included 29,196 loci with a total alignment size of
 
 
 \subsection{Phylogenetic inference recovers monophyletic taxa}
-All phylogenetic analyses recovered similar topologies, with individuals of the same 
-taxonomic determination consistently grouped into monophyletic clades. Few exceptions
-were observed within \emph{D. ramosum}, \emph{D. alpestre}, \emph{D. distichum}, and 
-\emph{D. nutallianum}, which we address later in the context of admixture.
+All phylogenetic analyses recovered topologies showing individuals of the same 
+species consistently grouped into monophyletic clades, with a few exceptions observed within \emph{D. ramosum}, \emph{D. alpestre}, \emph{D. distichum}, and 
+\emph{D. nuttallianum} (addressed below in the context of admixture).
 % 
 Caster-site recovered the same tree topology from both the `min4' and `min10' 
 datasets (Fig.~\ref{fig:bigtree}, Fig.~\ref{fig:S1}), while the ML trees
 inferred by raxml-ng differed from each other, and from the caster topology.
 % 
-These differences are concentrated on the backbone of the tree in the order 
-of higher-level relationships that generally have low support across all trees 
+These differences are largely due to low backbone support affecting the ordering
+of higher-level relationships across all trees
 (Fig.~\ref{fig:S2},~\ref{fig:S3}).
 % 
 Tree distances, measured using the generalized Robinson-Foulds mutual clustering
@@ -518,7 +519,7 @@ shares 86.0 and 91.3\% of information in common with the ML min4 and min10
 trees, respectively.
 
 
-A set of higher level clades was recovered across all trees that shows a strong
+A set of higher-level clades was recovered across all trees that shows a strong
 concordance with biogeographic regions.
 This includes taxa associated with the Great Basin, Pacific Northwest, California, 
 Intermountain West, Alaska/Canada, the Southwestern US, and Eastern North America
@@ -526,7 +527,7 @@ Intermountain West, Alaska/Canada, the Southwestern US, and Eastern North Americ
 % 
 All of our tree hypotheses support three early diverging lineages that split
 from the rest of our sampled \emph{Delphinium} taxa early in the radiation. 
-This includes \emph{D. patens}, \emph{D. nudicaule}, and \emph{trolliifolium},
+This includes \emph{D. patens}, \emph{D. nudicaule}, and \emph{D. trolliifolium},
 which are distributed in central California, northern California, and northern 
 California and the Pacific Northweest, respectively. We focus most of our further
 analyses and discussion on the larger recovered clades in our study.
@@ -542,12 +543,12 @@ analyses and discussion on the larger recovered clades in our study.
 		Color codes correspond to distinct biogeographic regions associated with phylogenetic clades
 		(yellow: Pacific Northwest,
 		 red: California,
-		 orange: Intermountain west,
+		 orange: Intermountain West,
 		 blue: Alaska and Canada,
 		 green: Eastern USA,			
 		 purple: Southwestern USA,
 		 black: Great Basin,
-		 grey: other)
+		 grey: other).
 		(b) A rooted species tree topology inferred from the min10 SNP dataset using caster-site with 
 		population mapping of 150 individuals to 41 populations, shown with local block bootstrap supports.
 		% 
@@ -562,8 +563,8 @@ analyses and discussion on the larger recovered clades in our study.
 		of each tree. Support for internal nodes generally showed greatest conflict with respect to the
 		placement of the ALCA and PNW clades.
 		(g) Representative images of \emph{Delphinium} sect. \emph{Diedropetala} 
-		(Photo credits: \emph{D. viridescens} from the Burke Herbarium, 
-		and \emph{D. xantholeucum} from Eastern Washington University).
+		(Photo credits: \emph{D. xantholeucum} from Eastern Washington University, 
+		and \emph{D. viridescens} from the Burke Herbarium).
 	}
 	\label{fig:sptree}
 \end{figure}
@@ -576,7 +577,7 @@ clades correspond uniquely with an existing taxonomic subsection in Warnock's
 FNA treatment (Fig.~\ref{fig:sptree}b). 
 % 
 Support for monophyly of each of these clades is >95\% in all trees, despite 
-the fact that their ordering varies among trees, and has low support 
+the fact that their ordering varies and has low support among trees
 (Fig.~\ref{fig:sptree}c-f).
 % 
 The grouping of clades IMW, ALCA, ENA, and SW is consistently recovered with 
@@ -609,40 +610,35 @@ The GB1 clade occurs in the Great Basin and includes \emph{D. scaposum} and
 Our sampled populations of \emph{D. scaposum} are from SE Nevada and NW Arizona, 
 and the populations of \emph{D. andersonii} from southern Idaho. 
 % 
-The BAS1 clade does not group with the other taxon we sampled from the Great
-Basin, \emph{D. stachydeum}, from northern Nevada. This taxon occurs as the 
-sole member of its clade, which we designate BAS2.
-% While these taxa are currently placed in the subsection
-% Subscaposa, other members of this subsection are spread across several clades of 
-% the phylogeny.
+The GB1 clade does not group with the other taxon we sampled from the Great
+Basin, \emph{D. stachydeum}, from northern Nevada. This taxon occurs as the
+sole member of its clade, which we designate GB2. This separation of clades aligns with morphologic differences, with \textit{D. stachydeum} exhibiting a larger stature, denser inflorescences and distinctive fruits when compared to \textit{D. scaposum} and \textit{D. andersonii}. Importantly, \emph{D. scaposum} and
+\emph{D. andersonii} are currently placed in the subsection
+\textit{Subscaposa} and \emph{D. stachydeum} is placed in the subsection \textit{Wislizenana}, both of which have representatives spread across several clades of 
+the phylogeny.
 
-The PNW clade corresponds to taxa distributed in mountainous regions of the Columbia 
-plateau in E Washington, NE Oregon, Idaho, and W Montana. It includes \emph{D. lineapetalum}, 
+The PNW clade corresponds to taxa distributed in mountainous regions in and around the Columbia
+Plateau in E Washington, NE Oregon, Idaho, and W Montana. It includes \emph{D. lineapetalum}, 
 \emph{D. xantholeucum}, \emph{D. nuttallianum}, \emph{D. distichum}, \emph{D. bicolor}, 
 \emph{D. viridescens}, and \emph{D. multiplex}. We recover both \emph{D. nuttallianum}
-and \emph{D. distichum} as polyphyletic, possiby as a result of admixture, which we
-investigate further below. These five taxa are derived from four
-different subsections in the Warnock taxonmic treatment. These seven taxa grouped
-together in our results are derived from six different subsections in the current 
+and \emph{D. distichum} as polyphyletic, possibly as a result of admixture, which we
+investigate in further detail below. These seven taxa grouped
+together in our results are derived from five different subsections in the current
 FNA treatment.
 
 The CAL clade includes taxa distributed primarily in California, including 
 \emph{D. californicum}, \emph{D. hesperium}, \emph{D. cardinale}, 
-\emph{D. gypsophilum}, and \emph{D. parryi}. These five taxa grouped together in
-our results are derived from four different subsections in the current FNA treatment.
+\emph{D. gypsophilum}, and \emph{D. parryi}. These five taxa, which are 100\% supported as monophyletic both within species and as a group in
+our phylogenetic analyses, are currently placed in four different subsections in the current FNA treatment.
 
-The IMW clade corresponds to taxa distributed in the "intermountain west" region 
-between the northern and souther Rocky Mountains.
+The IMW clade corresponds to taxa distributed in the Intermountain West region 
+between the Cascades/Sierra Nevada and the Rocky Mountains.
 It is represented by four species in our study, 
 \emph{D. geyeri}, \emph{D. barbeyi}, \emph{D. occidentale}, and \emph{D. glaucescens}.
 Several of these species have large geographic ranges spanning this region.
 
-The ALCA clade corresponds to several widespread species that occur in Alaska
-and Canada, and sometimes also elsewhere. This includes the widespread species
-\emph{D. glaucum}, which we sampled in both Alaska and the Sierra Nevada; 
-\emph{D. brachycentrum}, which we sampled in Alaska, but also extends into Asia;
-and \emph{D. exaltatum}, which occurs broadly in eastern North America, but which 
-we sampled Colorado near Boulder. The two populations of \emph{D. glaucum} group
+% Jared add info about lack of eastern species samples; missing clade here essentially 
+The ALCA clade corresponds primarily to \emph{D. brachycentrum}, which is endemic to tundra environments in Alaska and northern Asia, and \emph{D. glaucum}, a tall larkspur whose range spans much of the North American Cordillera from Alaska and British Columbia down through the Northern Rockies, with populations also present in the Cascades and Sierra Nevada. Surprisingly, this group also includes \emph{D. exaltatum}, which occurs broadly in eastern North America. The two populations of \emph{D. glaucum} group
 monophyletically in the caster topologies, but \emph{D. glaucum} from Alaska groups 
 with the \emph{D. brachycentrum} in the ML topologies.
 % Members of this are all in the Exaltata subsection,
