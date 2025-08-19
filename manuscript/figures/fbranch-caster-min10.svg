@@ -25,9 +25,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.30371052"
-     inkscape:cx="1317.0436"
-     inkscape:cy="2062.8196"
+     inkscape:zoom="0.50106515"
+     inkscape:cx="1869.0184"
+     inkscape:cy="1156.5362"
      inkscape:window-width="2502"
      inkscape:window-height="1371"
      inkscape:window-x="0"
@@ -180,7 +180,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#fca386;fill-opacity:1;stroke:#fcbaa0;stroke-width:3.75;stroke-linecap:round;stroke-opacity:1;marker-start:url(#marker1548)"
-       d="m 463.43047,993.39953 0,1226.21557"
+       d="M 455.93047,993.39953 V 2219.6151"
        id="path1597"
        sodipodi:nodetypes="cc" />
     <path
@@ -229,18 +229,13 @@
        id="path1567"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#2e3436;stroke:#fb6b4b;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1549)"
-       d="M 433.48301,2077.8098 V 1893.3909"
-       id="path1569"
-       sodipodi:nodetypes="cc" />
-    <path
        style="fill:#2e3436;stroke:#fb7c5c;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1549)"
        d="m 406.95119,1962.599 v -69.2081"
        id="path1561"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#2e3436;stroke:#fca689;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1549)"
-       d="M 451.95119,1963.6032 V 1839.534"
+       d="M 435.45119,1963.6032 V 1839.534"
        id="path1560"
        sodipodi:nodetypes="cc" />
     <path
@@ -284,6 +279,16 @@
        id="path1590"
        sodipodi:nodetypes="cc" />
     <path
+       style="fill:#fdcfbc;fill-opacity:1;stroke:#fdd3c1;stroke-width:3.75;stroke-linecap:round;stroke-opacity:1;marker-start:url(#marker1548)"
+       d="m 325.72913,1167.1574 0,-157.3309"
+       id="path154"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#2e3436;stroke:#fdd3c1;stroke-width:3.75;stroke-linecap:round;stroke-opacity:1;marker-start:url(#marker1548)"
+       d="m 345.22913,1167.1574 0,-240.42608"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
        d="M 330.24885,1178.7792 H 617.82744"
        clip-path="url(#p59820b067b)"
        style="fill:none;stroke:#000000;stroke-width:3.75;stroke-dasharray:none"
@@ -311,7 +316,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#2e3436;stroke:#bd151a;stroke-width:3.75;stroke-linecap:round;stroke-opacity:1;marker-start:url(#marker1548)"
-       d="M 472.77241,1223.7328 V 1152.149"
+       d="M 494.22815,1223.7328 V 1152.149"
        id="path1474"
        sodipodi:nodetypes="cc" />
     <path
@@ -341,12 +346,12 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#2e3436;stroke:#fca183;stroke-width:3.75;stroke-linecap:round;stroke-opacity:1;marker-start:url(#marker1548)"
-       d="m 453.27241,1162.3426 v 71.5838"
+       d="m 473.4078,1162.3426 v 71.5838"
        id="path1563"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#2e3436;stroke:#fb7555;stroke-width:3.75;stroke-linecap:round;stroke-opacity:1;marker-start:url(#marker1548)"
-       d="M 489.73834,1307.6688 V 1236.085"
+       d="M 483.79675,1307.6688 V 1236.085"
        id="path1570"
        sodipodi:nodetypes="cc" />
     <path
@@ -6303,7 +6308,7 @@
          id="tspan1465"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="1017.194">D. distich. [1-5]</tspan></text>
+         y="1017.194">D. distichum [1-5]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6314,7 +6319,7 @@
          id="tspan1472"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="1157.3218">D. nuttall. [7-9]</tspan></text>
+         y="1157.3218">D. nuttallianum [7-9]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6325,7 +6330,7 @@
          id="tspan1473"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="1183.8988">D. distich. [2-6]</tspan></text>
+         y="1183.8988">D. aff. distichum [2-6]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6336,7 +6341,7 @@
          id="tspan1474"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="1240.608">D. nuttall. [14]</tspan></text>
+         y="1240.608">D. aff. nuttallianum [14]</tspan></text>
     <path
        style="fill:#2e3436;stroke:#000000;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
        d="M 29.636314,511.11541 H 562.09118"
@@ -6383,7 +6388,7 @@
          id="tspan1487"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="1328.1752">D. xantholeuc.</tspan></text>
+         y="1328.1752">D. xantholeucum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6504,7 +6509,7 @@
          id="tspan1498"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="1974.1456">D. brachycent.</tspan></text>
+         y="1974.1456">D. brachycentrum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6559,7 +6564,7 @@
          id="tspan1503"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.8446"
-         y="2228.5613">D. ramos. [4-10]</tspan></text>
+         y="2228.5613">D. aff. ramosum [4-10]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6570,7 +6575,7 @@
          id="tspan1504"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.06244"
-         y="2313.8171">D. ramos. [1-5]</tspan></text>
+         y="2313.8171">D. robustum [1-5]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6581,7 +6586,7 @@
          id="tspan1505"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.06244"
-         y="2341.9751">D. alpestre [1-5]</tspan></text>
+         y="2341.9751">D. cf. alpestre [1-5]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6614,7 +6619,7 @@
          id="tspan1508"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.06244"
-         y="2536.7341">D. alpestre [2]</tspan></text>
+         y="2536.7341">D. cf. alpestre [2]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6625,7 +6630,7 @@
          id="tspan1509"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.06244"
-         y="2567.2385">D. ramos. [3]</tspan></text>
+         y="2567.2385">D. ramosum [3]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6647,7 +6652,7 @@
          id="tspan1511"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;fill:#000000;stroke-width:0.75"
          x="609.06244"
-         y="2678.3059">D. novomexic.</tspan></text>
+         y="2678.3059">D. novomexicanum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.75"
@@ -6662,18 +6667,18 @@
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
-       x="-484.37015"
+       x="-484.20212"
        y="834.35474"
        id="text1477"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1477"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-484.37015"
+         x="-484.20212"
          y="834.35474">D. patens</tspan></text>
     <g
        id="g1478"
-       transform="rotate(-90,727.11352,443.39929)">
+       transform="rotate(-90,727.0295,443.31527)">
       <text
          xml:space="preserve"
          style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
@@ -6688,7 +6693,7 @@
     </g>
     <g
        id="g1479"
-       transform="rotate(-90,752.23355,427.99932)">
+       transform="rotate(-90,752.14953,427.9153)">
       <text
          xml:space="preserve"
          style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
@@ -6704,487 +6709,493 @@
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
-       x="-524.93011"
+       x="-524.76208"
        y="955.69873"
        id="text1480"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1480"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-524.93011"
+         x="-524.76208"
          y="955.69873">D. andersonii</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
-       x="-522.12213"
+       x="-521.9541"
        y="996.14673"
        id="text1481"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1481"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-522.12213"
+         x="-521.9541"
          y="996.14673">D. scaposum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
-       x="-508.17816"
+       x="-508.01013"
        y="1036.5947"
        id="text1482"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1482"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-508.17816"
+         x="-508.01013"
          y="1036.5947">D. multiplex</tspan></text>
-    <rect
-       style="opacity:0.6;fill:#555753;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1578"
-       width="33.158657"
-       height="81.609497"
-       x="-563.07947"
-       y="926.52319"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#edd400;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1579"
-       width="33.182991"
-       height="363.46353"
-       x="-563.07947"
-       y="1007.9839"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#ef2929;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1580"
-       width="33.033009"
-       height="201.93506"
-       x="-563.12469"
-       y="1412.7694"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#f57900;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1581"
-       width="33.076904"
-       height="162.58215"
-       x="-563.1687"
-       y="1614.6819"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1582"
-       width="33.058285"
-       height="161.99268"
-       x="-563.14996"
-       y="1777.4541"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#4e9a06;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1583"
-       width="33.054455"
-       height="39.896362"
-       x="-563.14612"
-       y="1939.8522"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#5c3566;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1584"
-       width="33.121094"
-       height="406.30627"
-       x="-563.21277"
-       y="1979.8329"
-       transform="rotate(-90)" />
-    <rect
-       style="opacity:0.6;fill:#555753;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1586"
-       width="33.074085"
-       height="41.230103"
-       x="-563.07947"
-       y="1371.5503"
-       transform="rotate(-90)" />
+    <g
+       id="g156">
+      <rect
+         style="opacity:0.6;fill:#555753;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1578"
+         width="33.158657"
+         height="81.609497"
+         x="-563.07947"
+         y="926.52319"
+         transform="rotate(-90)" />
+      <g
+         id="g155">
+        <rect
+           style="opacity:0.6;fill:#edd400;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1579"
+           width="33.182991"
+           height="363.46353"
+           x="-563.07947"
+           y="1007.9839"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:0.6;fill:#ef2929;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1580"
+           width="33.033009"
+           height="201.93506"
+           x="-563.12469"
+           y="1412.7694"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:0.6;fill:#f57900;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1581"
+           width="33.076904"
+           height="162.58215"
+           x="-563.1687"
+           y="1614.6819"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:0.6;fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1582"
+           width="33.058285"
+           height="161.99268"
+           x="-563.14996"
+           y="1777.4541"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:0.6;fill:#4e9a06;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1583"
+           width="33.054455"
+           height="39.896362"
+           x="-563.14612"
+           y="1939.8522"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:0.6;fill:#5c3566;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1584"
+           width="33.121094"
+           height="406.30627"
+           x="-563.21277"
+           y="1979.8329"
+           transform="rotate(-90)" />
+        <rect
+           style="opacity:0.6;fill:#555753;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1586"
+           width="33.074085"
+           height="41.230103"
+           x="-563.07947"
+           y="1371.5503"
+           transform="rotate(-90)" />
+      </g>
+    </g>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-532.41815"
+       x="-532.25012"
        y="1077.0427"
        id="text1483"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1483"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-532.41815"
+         x="-532.25012"
          y="1077.0427">D. viridescens</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
-       x="-543.41016"
+       x="-587.25806"
        y="1117.4907"
        id="text1484"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1484"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-543.41016"
-         y="1117.4907">D. distich. [1-5]</tspan></text>
+         x="-587.25806"
+         y="1117.4907">D. distichicum [1-5]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-533.18622"
+       x="-569.76215"
        y="1805.1066"
        id="text1513"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1513"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-533.18622"
-         y="1805.1066">D. brachycent.</tspan></text>
+         x="-569.76215"
+         y="1805.1066">D. brachycentrum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-514.77814"
+       x="-514.61011"
        y="1845.5546"
        id="text1514"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1514"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-514.77814"
+         x="-514.61011"
          y="1845.5546">D. exaltatum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-559.75415"
+       x="-559.58606"
        y="1886.0026"
        id="text1515"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1515"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-559.75415"
+         x="-559.58606"
          y="1886.0026">D. glaucum [3-4]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-559.75415"
+       x="-559.58606"
        y="1926.4506"
        id="text1516"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1516"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-559.75415"
+         x="-559.58606"
          y="1926.4506">D. glaucum [1-2]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-514.08215"
+       x="-556.08215"
        y="1966.8986"
        id="text1517"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1517"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-514.08215"
-         y="1966.8986">D. carolinea.</tspan></text>
+         x="-556.08215"
+         y="1966.8986">D. carolineanum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-555.19415"
+       x="-621.89008"
        y="2007.3464"
        id="text1518"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1518"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-555.19415"
-         y="2007.3464">D. ramos. [4-10]</tspan></text>
+         x="-621.89008"
+         y="2007.3464">D. aff. ramosum [4-10]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-541.85016"
+       x="-568.13013"
        y="2047.7944"
        id="text1519"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1519"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-541.85016"
-         y="2047.7944">D. ramos. [1-5]</tspan></text>
+         x="-568.13013"
+         y="2047.7944">D. robustum [1-5]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-553.51416"
+       x="-584.6181"
        y="2088.2424"
        id="text1520"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1520"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-553.51416"
-         y="2088.2424">D. alpestre [1-5]</tspan></text>
+         x="-584.6181"
+         y="2088.2424">D. cf. alpestre [1-5]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-536.71411"
+       x="-536.54608"
        y="2128.6904"
        id="text1521"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1521"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-536.71411"
+         x="-536.54608"
          y="2128.6904">D. scopulorum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-548.1142"
+       x="-547.94617"
        y="2169.2104"
        id="text1522"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1522"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-548.1142"
+         x="-547.94617"
          y="2169.2104">D. geraniifolium</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-532.17816"
+       x="-563.2821"
        y="2209.5864"
        id="text1523"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1523"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-532.17816"
-         y="2209.5864">D. alpestre [2]</tspan></text>
+         x="-563.2821"
+         y="2209.5864">D. cf. alpestre [2]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-547.34619"
+       x="-547.1781"
        y="2250.0344"
        id="text1524"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1524"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-547.34619"
+         x="-547.1781"
          y="2250.0344">D. ramosum [3]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-527.33014"
+       x="-527.16211"
        y="2290.4824"
        id="text1525"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1525"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-527.33014"
+         x="-527.16211"
          y="2290.4824">D. andesicola</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-530.57019"
+       x="-559.15411"
        y="2330.9304"
        id="text1526"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1526"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-530.57019"
-         y="2330.9304">D. novomexic.</tspan></text>
+         x="-559.15411"
+         y="2330.9304">D. novomexicum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-519.19415"
+       x="-519.02612"
        y="2371.3784"
        id="text1527"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1527"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-519.19415"
+         x="-519.02612"
          y="2371.3784">D. sapellonis</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-548.11414"
+       x="-547.94611"
        y="1319.7306"
        id="text1528"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1528"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-548.11414"
+         x="-547.94611"
          y="1319.7306">D. lineapetalum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-532.49011"
+       x="-561.0741"
        y="1360.1786"
        id="text1529"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1529"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-532.49011"
-         y="1360.1786">D. xantholeuc.</tspan></text>
+         x="-561.0741"
+         y="1360.1786">D. xantholeucum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-541.17816"
+       x="-541.01013"
        y="1400.6266"
        id="text1530"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1530"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-541.17816"
+         x="-541.01013"
          y="1400.6266">D. stachydeum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-540.31415"
+       x="-540.14612"
        y="1441.1466"
        id="text1531"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1531"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-540.31415"
+         x="-540.14612"
          y="1441.1466">D. californicum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-524.52216"
+       x="-524.35413"
        y="1481.5226"
        id="text1532"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1532"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-524.52216"
+         x="-524.35413"
          y="1481.5226">D. hesperium</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-510.05017"
+       x="-509.88214"
        y="1521.9706"
        id="text1533"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1533"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-510.05017"
+         x="-509.88214"
          y="1521.9706">D. cardinale</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-474.41016"
+       x="-474.24213"
        y="1562.4186"
        id="text1534"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1534"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-474.41016"
+         x="-474.24213"
          y="1562.4186">D. parryi</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-547.10614"
+       x="-546.93811"
        y="1602.8666"
        id="text1535"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1535"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-547.10614"
+         x="-546.93811"
          y="1602.8666">D. gypsophilum</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-478.25018"
+       x="-478.08212"
        y="1643.3146"
        id="text1536"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1536"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-478.25018"
+         x="-478.08212"
          y="1643.3146">D. geyeri</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-492.43414"
+       x="-492.26611"
        y="1683.7626"
        id="text1537"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1537"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-492.43414"
+         x="-492.26611"
          y="1683.7626">D. barbeyi</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-546.21814"
+       x="-546.05011"
        y="1724.2106"
        id="text1538"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1538"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-546.21814"
+         x="-546.05011"
          y="1724.2106">D. glaucescens</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-534.14618"
+       x="-533.97815"
        y="1764.6586"
        id="text1539"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1539"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-534.14618"
+         x="-533.97815"
          y="1764.6586">D. occidentale</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-539.52216"
+       x="-598.32208"
        y="1198.3867"
        id="text1541"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1541"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-539.52216"
-         y="1198.3867">D. nuttall. [7-9]</tspan></text>
+         x="-598.32208"
+         y="1198.3867">D. nuttallianum [7-9]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-543.41016"
+       x="-627.29004"
        y="1238.8346"
        id="text1542"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1542"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-543.41016"
-         y="1238.8346">D. distich. [2-6]</tspan></text>
+         x="-627.29004"
+         y="1238.8346">D. aff. distichicum [2-6]</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:round"
-       x="-531.53015"
+       x="-630.36206"
        y="1279.2826"
        id="text1543"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1543"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-531.53015"
-         y="1279.2826">D. nuttall. [14]</tspan></text>
+         x="-630.36206"
+         y="1279.2826">D. aff. nuttallianum [14]</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
        d="m 244.32463,614.95045 -0.40608,-67.31248 h 318.17263"
@@ -7208,14 +7219,14 @@
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:center;text-anchor:middle;stroke-width:0.75"
-       x="-485.604"
+       x="-485.37811"
        y="1158.8253"
        id="text1571"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1571"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:start;text-anchor:start;stroke-width:0.75"
-         x="-485.604"
+         x="-485.37811"
          y="1158.8253">D. bicolor</tspan></text>
     <rect
        style="opacity:0.6;fill:#555753;fill-opacity:1;stroke:none;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
