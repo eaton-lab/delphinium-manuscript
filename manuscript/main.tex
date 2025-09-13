@@ -92,7 +92,7 @@ Keywords: Larkspur, Hybridization, Plant, Syngameon, Alpine, RAD-seq, Biogeograp
 \section*{Introduction}
 % Western North America contains unresolved plant clades that we need to understand better
 Western North America harbors exceptional topographic and ecological heterogeneity
-that has shaped the diversification of many endemism plant lineages.
+that has shaped the diversification of many endemic plant lineages.
 % fostered
 % North America is a topographically and ecologically complex region that has fostered the
 % diversification of many endemic plant lineages. 
@@ -105,7 +105,7 @@ climate and precipitation patterns, increased wildfire frequency, and habitat lo
 Although North America is among the best-studied floras globally
  \citep{hickman1993jepson,FNA_Vol3_1997,cronquist_intermountain_1984}, 
 persistent taxonomic uncertainties continue to
-impede initiatives to quantify biodiversity and track its decline. 
+impede efforts to quantify biodiversity and track its decline. 
 % out ability to accurately quantify biodiversity and track its decline. 
 % 
 % Improved taxonomic knowledge is essential to detect 
@@ -225,7 +225,7 @@ This treatment is included in the current Flora of North America
 \citep[FNA;][]{Warnock_1997_FNA_Delphinium}, and we will refer to it hereafter as 
 the FNA treatment.
 Other notable regional treatments of \emph{Delphinium} include:
-\cite{rydberg_delphinium_1899, ewan_genus_1942, wilde1931studies, cronquist_intermountain_1984, ackerfield_flora_2022, chambers_comments_2018, lewis_taxonomic_1954,koontz_delphinium_2012,WeberWittmann2012}.
+\cite{rydberg_delphinium_1899, ewan_genus_1942, wilde1931studies, cronquist_intermountain_1984, ackerfield_flora_2022, chambers_comments_2018, lewis_taxonomic_1954,koontz_delphinium_2012,WeberWittmann2012,holmgren2012intermountain}.
 
 In addition, two molecular phylogenetic studies have used
 Sanger sequencing markers to examine relationships within 
@@ -260,7 +260,7 @@ In this study, we generated a new reduced-representation genomic dataset to
 investigate phylogeny and introgression across \emph{Delphinium} sect. 
 \emph{Diedropetala}.
 % 
-We present a new and highly revised phylogenetic hypothesis for relationships
+We present a new and highly revised phylogenomic hypothesis for relationships
 among species representing all previously described subsections in this 
 group, and discuss our confidence in this result with regard to our 
 extensive sampling of populations within species, tests for hybrid 
@@ -358,7 +358,7 @@ visualize trees and compute tree distance metrics.
 % Robinson-Foulds distances calculated in the Python package \emph{toytree}
 % \citep{eaton_toytree_2020}. 
 
-To achieve a "population-level" phylogeny we additionally ran caster-site using 
+To achieve a "population-level" phylogeny we additionally ran 'caster-site' using the same settings as above but with
 a mapping file to assign individuals to populations. We included 41 
 populations, where each represents a unique clade corresponding to a taxon name
 that was consistently recovered as monophyletic in all phylogenetic analyses. 
@@ -369,8 +369,7 @@ We assigned the sample Dalp4-2 to \emph{D. ramosum} population 4-10,
 since it consistently groups within that clade, despite being initially 
 determined as \emph{D. alpestre}.
 % and we lack sufficient confidence from only one sample to treat it
-% as another \emph{D. alpestre} clade.
-Caster-site was run using the same settings as above. 
+% as another \emph{D. alpestre} clade. 
 
 %We then converted the branch lengths to obtain an ultrametric
 %tree using penalized likelihood rate smoothing implemented in `toytree`,
@@ -384,7 +383,7 @@ We calculated D-statistics \citep{durand_testing_2011} and F4-ratios using the
 Dtrios method in Dsuite \citep{malinsky_dsuite_2021}, and plotted admixture 
 proportions on species tree hypotheses using the f-branch statistic method.
 This requires a species tree hypothesis, and so we performed the test 
-on three trees, using the population-level tree inferred by caster-site, 
+on three trees, using the population-level tree inferred by 'caster-site', 
 as well as population-level trees matching the ML min4 and min10 topologies, 
 created by similarly collapsing monophyletic clades into a single tip.
 Analyses were run using a VCF file from the min10 assembly, and with the 
@@ -440,7 +439,7 @@ contributors, GIS User Community).
 	\centering
 	  \includegraphics[width=0.99\textwidth]{./figures/caster-trees.pdf}	
 	\caption{
-		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala} inferred from the min10 SNP dataset using caster-site. Colored rectangles highlight groups that correspond well with distinct geographic regions, representing higher-level clades. Populations and individuals sampled from within the same taxon designation form monophyletic clades, except in few cases, involving \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and \emph{D. alpestre}.
+		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala} inferred from the min10 SNP dataset using caster-site. Colored rectangles highlight groups that correspond well with distinct geographic regions, representing higher-level clades. Populations and individuals sampled from within the same taxon designation form monophyletic clades, except in a few cases involving \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and \emph{D. alpestre}.
 	}
 	\label{fig:bigtree}
 \end{figure}
@@ -470,8 +469,8 @@ The `min10' dataset included 29,196 loci with a total alignment size of
 \subsection{Phylogenetic inference recovers monophyletic taxa}
 All phylogenetic analyses recovered topologies showing individuals of the same 
 species consistently grouped into monophyletic clades, with a few exceptions 
-observed within \emph{D. ramosum}, \emph{D. alpestre}, \emph{D. distichum}, and 
-\emph{D. nuttallianum} (addressed below in the context of admixture).
+observed within \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and 
+\emph{D. alpestre} (addressed below in the context of admixture).
 % 
 Caster-site recovered the same tree topology from both the `min4' and `min10' 
 datasets (Fig.~\ref{fig:bigtree}, Fig.~\ref{fig:S1}), while the ML trees
@@ -490,13 +489,6 @@ ML topologies share 93.3\% of information in common, while the caster topology
 shares 86.0 and 91.3\% of information in common with the ML min4 and min10 
 trees, respectively.
 
-
-A set of higher-level clades was recovered across all trees that shows a strong
-concordance with biogeographic regions.
-This includes taxa associated with the Great Basin, Pacific Northwest, California, 
-Intermountain West, Alaska/Canada, the Southwestern US, and Eastern North America
-(Fig.~\ref{fig:sptree}a-b). 
-% 
 All of our tree hypotheses support three early diverging lineages that split
 from the rest of our sampled \emph{Delphinium} taxa early in the radiation. 
 This includes \emph{D. patens}, \emph{D. nudicaule}, and \emph{D. trolliifolium},
@@ -508,14 +500,14 @@ analyses and discussion on the larger recovered clades in our study.
 
 \begin{figure}[t!]
 	\centering
-	\includegraphics[width=0.95\textwidth]{./figures/Fig2_sptree.pdf}
+	\includegraphics[width=0.95\textwidth]{./figures/Fig2_sptree_newcolor.pdf}
 	\caption{
 		Phylogeny and biogeographic distribution of \emph{Delphinium} sect. \emph{Diedropetala}.
 		(a) Locations of samples used in this study.	Color codes match to those used to 
 		represent distinct clades in (b) that correspond closely with the following
-		biogeographic regions (yellow: Pacific Northwest, red: California, orange: 
+		biogeographic regions (black: Great Basin, yellow: Pacific Northwest, red: California, orange: 
 		Intermountain West, blue: Alaska and Canada, green: Eastern USA, purple: 
-		Southwestern USA, black: Great Basin, grey: other).
+		Southwestern USA, gray: other).
 		(b) A rooted species tree topology inferred from the min10 SNP dataset using 
 		caster-site with population mapping of 150 individuals to 41 populations, 
 		shown with local block bootstrap supports.
@@ -529,23 +521,24 @@ analyses and discussion on the larger recovered clades in our study.
 		of each tree), but support for internal splits between major clades have lower 
 		support.
 		(g) Images of members of \emph{Delphinium} sect. \emph{Diedropetala} 
-		(Photo credits: \emph{D. xantholeucum} from Eastern Washington University, 
-		and \emph{D. viridescens} from the Burke Herbarium).
+		(Photo credits: \emph{D. viridescens} from the Burke Herbarium at the University of Washington, and \emph{D. xantholeucum} from Eastern Washington University).
 	}
 	\label{fig:sptree}
 \end{figure}
 
 
 \subsection{Higher-level clades correspond strongly with biogeographic regions}
-We designate eight named clades that were consistently recovered across our
-phylogenetic analyses and correspond well to geographic regions. None of these
+A set of higher-level clades was recovered across all trees that show a strong
+concordance with biogeographic regions, which we designated accordingly: GB1 and GB2 (Great Basin), PNW (Pacific Northwest), CAL (California), IMW (Intermountain West), ALCAN (Alaska/Canada), ENA (Eastern North America), and SW (Southwestern US) (Fig.~\ref{fig:sptree}a-b). 
+% 
+None of these
 clades corresponds uniquely with an existing taxonomic subsection in the FNA treatment (Fig.~\ref{fig:sptree}b). 
 % 
 Support for monophyly of each of these clades is >95\% in all trees, despite 
 the fact that their ordering varies and has low support among trees
 (Fig.~\ref{fig:sptree}c-f).
 % 
-The grouping of clades IMW, ALCA, ENA, and SW is consistently recovered with 
+The grouping of clades IMW, ALCAN, ENA, and SW is consistently recovered with 
 100\% support, uniting a clade that extends from Alaska to the southern Rocky
 Mountains. By contrast, the phylogenetic placement of clades CAL, GB1, and GB2 has lower support, and is more variable among our inferred trees. 
 % relationships among clades distributed in California 
@@ -630,12 +623,12 @@ environments both in this region and surrounding regions.
 They all share a medium stature with moderate sized inflorescences of blue-purple flowers with medium length (9-18 mm) spurs. 
 
 % Jared add info about lack of eastern species samples; missing clade here essentially 
-The ALCA clade corresponds primarily to \emph{D. brachycentrum}, which is endemic to 
+The ALCAN clade corresponds primarily to \emph{D. brachycentrum}, which is endemic to 
 tundra environments in Alaska and northern Asia, and \emph{D. glaucum}, a tall larkspur 
 whose range spans much of the North American Cordillera from Alaska and British Columbia 
 down through the Northern Rockies, with populations also present in the Cascades and Sierra Nevada. 
 Surprisingly, this group also includes \emph{D. exaltatum}, which occurs broadly in eastern North
-America. The two populations of \emph{D. glaucum} group monophyletically in the caster topologies, 
+America and exhibits a disjunct pattern between the Appalachian and Ozark Mountains \citep{mohn2021exaltatum}. The two populations of \emph{D. glaucum} group monophyletically in the caster topologies, 
 but \emph{D. glaucum} from Alaska groups with the \emph{D. brachycentrum} in the ML topologies.
 % Members of this are all in the Exaltata subsection,
 % representing the "tall larkspurs". 
@@ -644,6 +637,7 @@ but are united by having glabrous to glaucous stems, moderate‑length spurs,
 paler flowers, and tending to occur in moist and rocky habitats, in contrast to 
 morphologically similar, but dry adapted members of the CAL clade.
 
+The ENA clade is represented by a single species, \emph{D. carolinianum}, whose range begins east of the Rocky Mountains. Inclusion of the remaining \emph{Delphinium} taxa east of the Rockies is a vital next step that will help complete the phylogeny of \emph{Delphinium} sect. \emph{Diedropetala} and likely clarify the proper relationship between \emph{D. exaltatum} and the other ALCAN species.
 
 The SW clade is represented by eight taxa in our study which share a biogeographical
 distribution throughout the southwestern United States. This includes
@@ -654,7 +648,7 @@ are both polyphyletic. We recover three separate clades of \emph{D. alpestre}, e
 appearing sister to a clade of \emph{D. ramosum}, or of the very morphologically
 similar \emph{D. robustum}. We investigate this "replicated divergence" pattern in 
 greater detail below. This group is united by all taxa having tall stature, 
-large leaves and large inflorescences.
+large leaves and large inflorescences, with the exception of \emph{D. alpestre}, which forms a cushion habit and is only found above treeline.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -668,6 +662,11 @@ western North America, where numerous putative hybrids have been described.
 Results of our f-branch analyses confirm that genomic admixture is widespread
 and common both within and between the major clades of \emph{Delphinium} that
 we identified (Fig.~\ref{fig:fbranch}, Table~S2).
+% 
+% Across >9000 quartet tests, the mean +/- standard deviation of the 
+% number of discordant SNP sites (ABBA or BABA) was 192 +/- 82 SNP
+% sites per test.  
+% 
 Admixture is most common between taxa within the same geographically structured
 clades, or between clades with overlapping geographic ranges.
 % 
@@ -689,14 +688,14 @@ Jepson Manual treatments of \emph{Delphinium}.
 	\centering
 	\includegraphics[width=0.95\textwidth]{./figures/fbranch-caster-min10.pdf}
 	\caption{
-        Heatmap of f-branch ($f_b$) statistics summarizing admixture on the reference species tree of \emph{Delphinium} section \emph{Diedropetala}, with
+        Heatmap of f-branch ($f_b$) statistics summarizing admixture on the reference species tree of \emph{Delphinium} sect. \emph{Diedropetala}, with
         colored blocks indicating the major clades described above.
         % 
-        Rows correspond to putative introgressive recipient lineages, and columns to donor lineages. Each cell shows the excess allele sharing between the donor  and the descendants of one of the recipient lineages relative to its sister lineage.
+        Columns (x-axis) correspond to donor lineages, and rows (y-axis) to putative introgressive recipient lineages. Dotted lines on the y-axis indicate internal branches of the tree, with all taxa below a dotted line belonging to that respective branch. Each cell shows the excess allele sharing between the donor and the descendants of one of the recipient lineages relative to its sister lineage.
         %
         Broad bands indicate deeper introgression events, while patterns shared by one or few branches represent more recent and localized introgression.
         %
-        Arrows are drawn between branches on the left tree as a hypothesized summary of the strongest admixture signals, with arrow colors representing their mean $f_b$ value. 
+        Arrows are drawn between branches on the left tree as a hypothesized summary of the strongest admixture signals, with arrow colors representing their mean $f_b$ value. Gray boxes indicate tests that cannot be performed because they are inconsistent with the species tree topology used to generate these $f_b$ statistics. 
 	}
 	\label{fig:fbranch}
 \end{figure}
@@ -714,7 +713,7 @@ in both \emph{D. nudicaule} and \emph{D. trolliifolium}, lending increased
 confidence, although we have only one representative of \emph{D. patens}. 
 % 
 Genomic evidence of admixture between these species is consistent with 
-reported observations that both species can hybridize with \emph{D. nudicaule}.
+reported observations that both species can hybridize with \emph{D. nudicaule} \citep{warnock_taxonomic_1995}.
 % 
 We do not find further evidence of \emph{D. nudicaule} hybridizing with other
 taxa in our dataset, despite reports of putative hybridization with 
@@ -750,7 +749,7 @@ from N Utah and \emph{D. andersonii} from S Idaho. These taxa are reported to
 hybridize \citep{hickman1993jepson}, and our analyses suggest that introgression is largely unidirectional into \emph{D. andersonii}.
 % 
 The widespread taxon \emph{D. glaucum} also appears admixed with several lineages, 
-consistent with reports that it forms many types of hybrids.
+consistent with reports that it forms many types of hybrids \citep{warnock_taxonomic_1995}.
 Our genomic results confirm introgression with its close relative \emph{D. brachycentrum}, 
 as well as with \emph{D. occidentale} from the IMW clade. 
 The latter has been described as a hybrid between \emph{D. glaucum} and the 
@@ -759,7 +758,7 @@ species, it also shares affinity with \emph{D. glaucescens} and perhaps addition
 admixture with other taxa. Thus, our results suggest \emph{D. occidentale} has a more 
 complex origin that deserves further investigation.
 % 
-Another taxon that appear admixed with \emph{D. glaucum} is \emph{D. bicolor},
+Another taxon that appears admixed with \emph{D. glaucum} is \emph{D. bicolor},
 a widespread taxon from the PNW clade, which has not been previously 
 reported to hybridize. 
 We do not observe admixture between \emph{D. glaucum} and \emph{D. stachydeum} 
@@ -774,7 +773,7 @@ Although our f-branch results appear to support frequent admixture between diver
 biogeographic clades, this pattern is largely driven by a few widespread species that
 hybridize abundantly, notably: \emph{D. nuttallianum} (PNW clade); 
 \emph{D. barbeyi} (IMW clade); 
-and \emph{D. glaucum} (ALCA clade). 
+and \emph{D. glaucum} (ALCAN clade). 
 % 
 The ENA and CAL clades are relatively isolated from these widespread taxa, both 
 geographically and ecologically, and are conspicuously absent of across-lineage
@@ -809,41 +808,51 @@ suggesting that reproductive divergence may play an important role in
 reducing interspecies gene flow in this clade.
 
 
+\subsubsection{Taxonomic clarification in light of admixture}
+% 
+These admixture results help to resolve long-standing disagreements 
+concerning the taxonomy of multiple species. For example, we included multiple samples
+of \emph{D. occidentale}, a species recognized by Ewan (\citeyear{ewan_synopsis_1945}) and Holmgren  (\citeyear{holmgren2012intermountain}), 
+but which Warnock (\citeyear{warnock_taxonomic_1995}) describes as a hybrid between \emph{D. glaucum} and 
+\emph{D. barbeyi}. 
+% 
+ Our phylogenetic results show \emph{D. occidentale} as distinct from both \emph{D. barbeyi} and \emph{D. exaltatum}, and most closely related to \emph{D. glaucescens} with 100\% bootstrap support. In addition, our admixture results show that while \emph{D. occidentale} is an introgressive recipient of both \emph{D. glaucum} 
+and \emph{D. barbeyi}, it also appears to be an introgressive donor to multiple taxa within the PNW clade. Given that nearly all taxa in our study show some evidence of admixture, we propose that \emph{D. occidentale} is just as deserving as any other taxon of species status. Our replicate population sampling, multiple phylogenomic analyses, and admixture 
+analyses together provide multiple lines of genomic evidence to support previous analyses based on RAPD markers \citep{li2002genetic} and toxic alkaloids \citep{gardner_taxonomic_2002} that distinguish these three taxa from each other (for further discussion, see \emph{D. occidentale} description in Holmgren \citeyear{holmgren2012intermountain}).
+
 \begin{figure}[t!]
 	\centering
-	  \includegraphics[width=0.99\textwidth]{./figures/ramosum-robustum-alpestre3}	
+	  \includegraphics[width=0.99\textwidth]{./figures/ramosum-robustum-alpestre4}	
 	\caption{
         Hybrid complex of \emph{D. robustum}, \emph{D. ramosum}, and \emph{D. cf. alpestre} in the Southern Rocky Mountains. 
         (a-b) Three distinct clades are strongly supported in phylogenetic results, grouping samples by geography rather than by species determinations based on morphology.
-        (c) A geomic PCA similarly groups samples by geography. Low opacity points show variation over replicate runs using randomly sampled subsets of
+        (c) A genomic PCA similarly groups samples by geography. Low opacity points show variation over replicate runs using randomly sampled subsets of
         unlinked SNPs. Each sample is represented by a centroid point. Labels show individual sample names, or population names when points overlap.
         (d) A genomic PCA with the inclusion of other members of the SW clade, and potential introgressive donors from the more distantly related IMW clade (\emph{D. geyeri} and \emph{D. barbeyi}). 
 	}
 	\label{fig:robustum}
 \end{figure}
 
-
-\subsubsection{Replicated Divergence in the \emph{D. ramosum} complex}
-% 
-There is substantial disagreement across floras concerning the distinction between \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre} 
+% RAMOSUM COMPLEX
+There is also disagreement across floras concerning the distinction between \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre} 
 \citep{ewan_synopsis_1945,ackerfield_flora_2022,WeberWittmann2012},
 a complex of species native to Colorado and New Mexico that are grouped into our SW clade.
 % 
-Our dataset includes multiple sampled populations of each species. 
+While \emph{D. alpestre} only occurs above treeline and has a uniquely small stature, \emph{D. ramosum} and \emph{D. robustum} occur in the subalpine and are larger and morphologically similar to each other, to the extent that \emph{D. robustum} is sometimes not recognized as a distinct taxon, and instead lumped within \emph{D. ramosum} \cite[e.g.,][]{ackerfield_flora_2022}.
+Our dataset includes multiple sampled populations of each taxon. 
 % 
-In phylogenetic analyses using our full dataset both \emph{D. ramosum} and 
+In phylogenetic analyses using our full dataset, both \emph{D. ramosum} and 
 \emph{D. alpestre} are polyphyletic, with the high elevation \emph{D. alpestre}
 resolved into three different clades (Fig.~\ref{fig:bigtree}).
 We refer to each of these populations exhibiting the distinct high elevation diminutive phenotype as \emph{D. cf. alpestre}.
 Similarly, we use the designations \emph{D. ramosum} and \emph{D. robustum} for
 the two populations exhibiting the lower elevation phenotype in the corresponding 
 geographic region where their types were originally described. 
-The final \emph{D. ramosum}-like population, from the southwestern San Juan Mountains, 
-we refer to as \emph{D. aff. ramosum}
+The final \emph{D. ramosum}-like population, from the southwestern San Juan Mountains, we refer to as \emph{D. aff. ramosum}.
 % 
 Using a more densely subsampled sequence alignment (24 samples x 780,187 bp with 22.5\% missing data) generated for this clade while using the CAL clade as a closer outgroup, we inferred an additional ML concatenation tree which further confirmed the phylogenetic relationships observed in the larger tree (Fig.~\ref{fig:robustum}a).
 % 
-As with the broader phylogenetic patterns in \emph{Delphinium} section \emph{Diedropetala}, relationships among populations within this clade match closely with geography, grouping into a northern, southeastern, and southwestern clade. 
+As with the broader phylogenetic patterns in \emph{Delphinium} sect. \emph{Diedropetala}, relationships among populations within this clade match closely with geography, grouping into a northern, southeastern, and southwestern clade. 
 %  
 % Within each region, the population of \emph{D. alpestre} occurs at higher 
 % elevations, consistent with its more diminutive stature, suggesting that this
@@ -853,20 +862,21 @@ As with the broader phylogenetic patterns in \emph{Delphinium} section \emph{Die
 % 
 We also examined patterns of ancestry among these populations using PCA performed
 on 2,068 unlinked SNPs (0\% missing data) from the 18 samples in this species complex.
-This also grouped samples into three distinct clusters corresponding to the same clades recovered in our phylogenetic analyses (Fig.~\ref{fig:robustum}c)
+This also grouped samples into three distinct clusters corresponding to the same clades recovered in our phylogenetic results (Fig.~\ref{fig:robustum}c)
 % 
 However, when we add additional taxa representing other members of the SW clade, and
 putative admixed taxa from the IMW clade, we find evidence that their relationships are shaped by admixture.
 % 
 A final PCA was performed on 1,792 unlinked SNPs (0\% missing) across 39 samples 
 from 8 taxa (Fig.~\ref{fig:robustum}d). 
-Here, the southeastern and northern clades from this complex both appear intermediate between a cluster formed by all other members of the SW clade, and a cluster representing \emph{D. geyeri} from the IMW clade.
+Here, the southeastern and southwestern clades from this complex both appear intermediate between a cluster formed by all other members of the SW clade, and a cluster representing \emph{D. geyeri} from the IMW clade.
 % 
-While this suggests admixture may contribute to the phylogenetic patterns,
-it does not explain the replicated pattern of morphological divergence 
-between \emph{D. cf. alpestre} and its closest relative within each subclade.
+%Interestingly, this PCA suggests introgression occurred from \emph{D. geyeri} into these two %clades, whereas the f-branch analysis supported  results
+% 
+While this suggests admixture may contribute to the phylogenetic patterns in this group, it does not explain the replicated pattern of morphological divergence 
+between \emph{D. cf. alpestre} and its closest relative within each subclade, as they do not differ in their patterns of admixture.
 Further work is needed to investigate the role of introgression, plasticity, 
-and replicated adaptation in driving this pattern.
+or the replicated adaptation to an alpine environment in driving this pattern.
 
 
 \section{Discussion}
@@ -881,8 +891,7 @@ Our phylogenetic results recovered most populations within taxa as monophyletic,
 and grouped all taxa into eight consistently recovered higher-level clades 
 that are strongly associated with biogeographic regions.
 % 
-We applied a range of phylogenetic methods, and data filtering approaches,
-to examine potential impacts of missing data or methodological biases.
+We applied a range of phylogenetic methods and data filtering approaches to examine potential impacts of missing data or methodological biases.
 % 
 The primary disagreement among these results involves the order in which the
 eight major clades diverged across the backbone of the tree. These relationships
@@ -893,16 +902,14 @@ hybrid introgression between species both within and between many of these clade
 % 
 Our new phylogenetic hypotheses for the relationships within 
 \emph{Delphinium} sect. \emph{Diedropetala} present a significant advance for 
-understanding the history of this North American plant clade. 
-Most significantly, our results highlight the dominant role of geography and 
-hybrid admixture in shaping their diversification.
+understanding the history of this North American plant clade by highlighting the dominant role of geography and hybridization in shaping its diversification.
 
 
 % how does this relate to existing classifications
 Our phylogenetic results conflict with existing higher-level taxonomy in 
-\emph{Delphinium} sect. \emph{Diedropetala}, including the current FNA treatment,
-which groups many taxa on the basis of morphological variation in leaf, flower, 
-and root variation.
+\emph{Delphinium} sect. \emph{Diedropetala}, including the current FNA treatment.
+% , which groups many taxa on the basis of morphological variation in leaf, flower, 
+% and root variation.
 % 
 Although our study does not include complete taxon sampling, we have
 included at least one representative of each subsection in the FNA treatment, 
@@ -911,64 +918,122 @@ similarities.
 % 
 Eight out of nine of the subsections in the FNA are recovered as polyphyletic
 in our phylogenies, representing discordance for every subsection for which
-we have more than one sample.
-This highlights the need for an updated taxonomy for this clade in light of 
-genomic evidence.
+we have more than one sample. This highlights the need for an updated taxonomy for this section in light of genomic evidence.
 % 
-We propose a new taxonomic treatment in which the eight biogeographic clades 
-in our study are designated as named subsections. Based on existing taxon 
-descriptions in the FNA, we describe the characters that unite members in each
-of these subsections.
-
-TO ADD: propose new clade names using PhyloCode conventions;
-
-We summarized the taxonomic descriptions of taxa in each clade to determine traits that unite our newly circumscribed clades. Intermontanus united by trait, trait, and trait; Californicae...
+Following the Phylocode protocol \citep{deQueiroz2020phylo}, we propose a set of formal taxonomic names for the higher-level clades consistently recovered across our analyses, along with additional supporting evidence (Appendix 1). For this analysis, we employed an agent-based ChatGPT (OpenAI, 2025) to curate morphological and ecological data for \emph{Delphinium} species from the Flora of North America (FNA) and other authoritative referenced sources. The agent performed structured searches for each taxon, extracting details such as stem height, leaf morphology, inflorescence size, sepal colour, spur length and habitat from the FNA descriptions and field guides. After collating these character states, the agent grouped taxa into clades based on our stated phylogenetic hypotheses and identified synapomorphies that distinguish each clade. It then drafted clade definitions following the PhyloCode’s minimum‑clade format, proposed etymologically appropriate names, and highlighted diagnostic characters, exclusions and comparisons with other clades. Citations were numbered and hyperlinked to the original sources. The process was iterative with feedback from the authors to revise formatting and suggest additional comparisons. These formal clade descriptions will 
 
 
+\subsection{Assessing an Abundance of Admixture}
+Although hybridization has been frequently observed and reported in North American 
+\emph{Delphinium}, our study is the first to use genomic evidence to validate 
+many of these hypotheses by investigating genomic admixture as an evolutionary
+consequence of hybrid introgression.
+% 
+Our results, based on patterns of allele sharing from thousands of genome-wide 
+discordant SNPs examined in the context of phylogenetic hypotheses, show abundant 
+evidence that hybrid introgression has occurred throughout the diversification of
+North American \emph{Delphinium}. 
+% 
+Many of the strongest signals of admixture that we detected are consistent with
+reports of hybridizing taxa listed in regional flora
+\citep[e.g., \emph{D. patens} x \emph{D. nudicaule}; \emph{D. nuttallianum} x \emph{D. andersonii};][]{hickman1993jepson, Warnock_1997_FNA_Delphinium}, however, many other 
+pairs of taxa that have been reported to hybridize do not show signals of 
+admixture in our genomic results (e.g., \emph{D. nudicaule} x \emph{D. nuttallianum}).
+This may indicate that some hybrids are infertile, or it may reflect the fact
+that introgression is sometimes geographically localized, and 
+occurred outside of the range of populations sampled in this study.
+% 
+Finally, we also detected evidence of admixture between many taxa that have not been 
+previously reported to hybridize (e.g., \emph{D. glaucum} x \emph{D. bicolor}), 
+identifying case studies for future investigations.
+
+Not every hypothesized introgression event reconstructed from our f-branch results 
+in Fig.~\ref{fig:fbranch} is likely to be true. Both analytical and bioinformatic
+errors can inflate these estimates. Because each test examines only one quartet of taxa at a time, and different sets of taxa may share different sets of loci in RAD-seq datasets, even methods like the f-branch statistic that aim to account for the non-independence among tests may yield false positives. Nevertheless, ABBA-BABA tests have been widely applied to RAD-seq datasets \citep{heliconius_genome_consortium_butterfly_2012, eaton_inferring_2013, eaton_historical_2015, mccluskey_phylogeny_2015, vargas_conflicting_2017},
+and do not typically lead to estimates of introgression nearly as abundant as observed in this study, suggesting our results are not an artifact of using anonymous genomic markers alone.
+% 
+Similarly, while bionformatic errors related to paralogy estimation and variant calling
+can also inflate estimates of introgression, we have no reason to expect these
+are inflated in our dataset. 
+For example, \emph{Delphinium} is not characterized by frequent polyploidy.
+% 
+Karyotypes have been well studied in \emph{Delphinium} \citep{turner_cytogenetics_1992, legro_species_1961, lewis-chromosome}
+where most species are diploid with a haploid chromosome number of eight (2N=16).
+Among the 27/34 taxa in our study for which data is available, only \emph{D. exaltatum} is polyploid (4N=32), while all other taxa have been reported as diploids (2N=16), although four have been reported to sometimes also occur in tetraploid populations, or as tetraploid cultivars (\emph{D. gypsophilum}, \emph{D. carolinianum}, \emph{D. glaucum}, and \emph{D. geyeri}). With the exception of \emph{D. glaucum}, none of these occasionally polyploid taxa is among those most widely implicated in introgression in our results.
+% % PLOIDY AND
+% Reported karyotype information seems to conform with our phylogenetic results. 
+% Lewis 1951 reported karyotypes for seven California species (D. hanseni, D. parishii, D. parryi, D. hesperium, D. recurvatum. D. variegatum, D. gypsophilum), which XX compared with karyotypes of X species from Oregon. They noted that the California species karyotypes are more similar to each other, as are the Oregon species to each other, than either is to species in the other region. One outlier to this was \emph{D. trolliifolium} in Oregon, which was quite different. This aligns with our phylogenetic results which found \emph{D. trolliifolium} to belong to an early diverged lineage quite distinct from other species in the Pacific Northwest.  
+
+We have primarily interpreted our admixture results in the context of introgression. However, another potential consequence of hybridization is hybrid speciation.
+% 
+This process would be better modeled through alternative methods, such as network
+analyses, that do not rely on a species tree hypothesis. 
+% 
+In this study, we are limited by the information available in short 
+\emph{de novo} assembled RAD-seq loci, which individually do not 
+generally contain sufficient information to infer gene trees to use as
+input to common phylogenetic network inference tools \citep{solis-lemus_inferring_2016}.
+% 
+Thus, we were not able to confidently apply this approach to our data. 
+% 
+% Network-based analyses can similarly have greater power to infer unsampled
+% branches, and to resolve the rooting of \emph{Delphinium} section \emph{Diedropetala}
+% with respect to outgroup taxa. 
+% % 
+% Based on our analyses of SNPs, we proposed that introgression has occurred between
+% several of our sampled lineages and unsampled or ghost lineages that we hypothesized
+% the phylogenetic placement of (Fig.~\ref{fig:fbranch}). 
+% % 
+Although our admixture analyses have revealed many new insights into the history of 
+hybridization in \emph{Delphinium}, we expect much more remains to be discovered in
+future studies. 
+These would benefit most by increasing taxon sampling; generating and using one or
+more reference genomes to improve paralogy estimation; and employing more advanced
+methods for testing introgression hypotheses that can model phylogenetic networks
+and make use of spatially structured patterns along chromosomes.
 
 
-% SYNGAMEON---
-\subsection{The Western North American \emph{Delphinium} Syngameon}
+\subsection{A Western North American \emph{Delphinium} Syngameon}
 
-- we detect abundant hybrid introgression across the clade.
-- this is consistent with many previous descriptions of hybrids.
-- many references.
-- genomic data is important for understanding the consequences of 
-  both historical and ongoing hybridization in terms of genomic
-  introgression between lineages.
-
-
-- the extent of introgression across the clade raises the question
-  of whether phylogenetic results represent historical patterns of
-  populations splitting across barriers, versus more recent patterns
-  of gene flow that may overwrite past patterns.
-- additional analyses are need to further investigate these questions.
-- here, we were are somewhat limited by the information available in
-  de novo assembled RAD-seq data. Moreover, the short lengths of our
-  reads increase the challenge of distinguishing paralogs, and reduce
-  our ability to infer individual gene trees for each locus, and apply
-  gene tree based inference methods.
-- One such method that needs further exploration is network inference,
-  which we could not apply here. This could help with resolving the order
-  of divergence across the backbone of the tree.
-- This, along with additional sampling of taxa, will be important towards
-  reconstructing the biogeographic history of the clade, and their order
-  and timing of dispersal between these regions.
-
-
-- the term syngameon is used to describe this type of pattern.
-- this has been observed in lineages like X, Y and Z.
-- this is emerging as a pattern in WNE.
-- in delphinium it seems that several super-hybridizers may play
-  a major role in spreading alleles between lineages.
+The term syngameon is used to describe a set of species that are connected
+by hybridization. Perhaps the most famous example involves oak trees, 
+where patterns of interspecific hybridization have been intensely studied
+[Hardin 1975], and more recently, patterns of introgression validated 
+through comparative genomic methods \citep{ribicoff_introgression_nodate}. 
+% 
+A notable feature of syngameons is that not all species hybridize evenly, 
+yet through a network of interconnected hybridizing species -- with a few
+species functioning as super-hybridizing nodes -- it is possible for genes
+to be exchanged, at least in theory, between any two species in the complex
+[boecklen].
+% 
+This is precisely the pattern that we have observed in North American 
+\emph{Delphinium}. 
+...
 - this could allows for local adaptation to occur repeatedly.
-
-
-
-There is also abundant evidence of admixture between species within each 
-biogeographic clade, which raises the question of whether their grouping 
-is a consequence of localized gene flow.
 % 
+Within the PNW clade the strongest signature of introgression occurs between the
+two lineages of \emph{D. nuttallianum}. 
+
+
+% Morphological variation/convergence
+% \emph{D. californicum} can be easily confused with \emph{D. glaucum} or \emph{D. exaltatum}, and is most readily distinguished by its western distribution and earlier flowering time \citep{Warnock_1997_FNA_Delphinium}. It is, however, quite distantly related in our results.
+% Add a couple sentences about tall larkspurs being longer-lived vs. shorter-lived perennials and how that trait maps onto the tree pretty well.
+% Biogeography hypothesis; asia - north america disjunctions; what else dispersed to NA at this time? Other plant genera that might support this hypothesis of glacial extirpation and then migration from south to north?
+
+[NOTE: maybe drop or shorten these paragraphs when finishing the syngameon section]
+The massive extent of introgression that appears to have occurred throughout the history
+of North American \emph{Delphinium} raises the question of whether our phylogenetic results represent historical patterns of populations splitting across geographic or ecological barriers, versus more recent patterns of gene flow that may overwrite such historical patterns.
+% 
+In other words, do the geographically clustered clades recovered in our phylogeny represent diversification \emph{in situ} within each of these regions, or does the genomic similarity of species within the same region arise after they disperse into sympatry, as a consequence of introgression? 
+% 
+This distinction is important for understanding not only the diversification history of \emph{Delphinium}, but also for using \emph{Delphinium} to understand the broader biogeographic history of western North America. 
+% 
+Our results support X not Y. 
+We believe that we can rule out the second hypothesis. 
+% 
+Should we believe that California, rather than Alaska and PNW, is the earliest diverging lineage?
+
 For example, within the PNW clade nearly every taxon is admixed
 with either \emph{D. multiplex} or \emph{D. aff. nuttallianum}; 
 in the IMW clade most taxa are admixed with \emph{D. barbeyi}, and in the 
@@ -979,72 +1044,29 @@ with another.
 % 
 Given the young age of the \emph{Delphinium} sect. Diedropetala clade, it 
 is possible and the local differences between taxa may reflect local 
-adaptation from a shared gene pool more 
+adaptation from a shared gene pool more ...
 % 
 Within most of the major biogeographic clades we find evidence of introgression
 between closely related species, which raises the question of whether their 
 grouping into a clade truly reflects a history of dispersal and divergence, or
-is a consequence of gene flow 
-% 
-Whether this is true of the other biogeographic clades is less clear. 
-% 
-Within the PNW clade the strongest signature of introgression occurs between the
-two lineages of \emph{D. nuttallianum}. 
-
-
-
-% Morphological variation/convergence
-\emph{D. californicum} can be easily confused with \emph{D. glaucum} or \emph{D. exaltatum}, and
-is most readily distinguished by its western distribution and earlier flowering time [CITE FNA]. 
-It is, however, quite distantly related in our results.
-
-Add a couple sentences about tall larkspurs being longer-lived vs. shorter-lived perennials and how that trait maps onto the tree pretty well.
-Biogeography hypothesis; asia - north america disjunctions; what else dispersed to NA at this time? Other plant genera that might support this hypothesis of glacial extirpation and then migration from south to north?
-
-
-\subsection{Replicated Adaptation or Cryptic Speciation}
-% OCCIDENTALE HYBRID?
-Importantly, our collections and analyses help to resolve long-standing disagreements 
-concerning the taxonomy of multiple species. For example, we included multiple samples
-of \emph{D. occidentale}, a species recognized by Ewan (1945) and Holmgren (2012), 
-but which Warnock (1997) describes as a hybrid between \emph{D. glaucum} and 
-\emph{D. barbeyi}. 
-% 
-Our replicate population sampling, multiple phylogenomic analyses, and admixture 
-analyses together provide multiple lines of evidence for interpreting the distinctiveness
-of this taxon. Our results show that \emph{D. occidentale} is admixed \emph{D. glaucum} 
-and \emph{D. barbeyi}, but also shares many alleles with \emph{D. glaucescens}, suggesting
-that this taxon also plays a role in its history. Given that nearly all taxa in our 
-study show some evidence of admixture, we propose that \emph{D. occidentale} 
-may be just as deserving as any other taxon of species status.
-
-
-% RAMOSUM COMPLEX
-A similar case is observed in the \emph{Delphinium ramosum} complex underscores the possibility that Delphinium alpestre is not a single taxon, but rather two separate taxa that independently speciated into alpine environments following the split of a progenitor population of Delphinium ramosum or robustum. Considering that these taxa belong to the most recently diverged clade of Delphinium sect. Diedropetala, future research involving these species may be a fruitful avenue for studies involving convergent plant adaptation in mountain environments.
-
-Thus, although each distinct geographic clade in the species complex formed by 
-\emph{D. robustum}, \emph{D. ramosum}, and \emph{D. alpestre} varies in its
-proportion of admixture with other species, the populations of \emph{D. alpestre}
-are not very genetically distinct from 
-
-these clades retain two distinct
-morphological types distributed with respect to elevation, but which do not
-appear to be genetically distinct. 
-% 
-
-ADD sentence about exaltatum study to reference that paper.
-
+is a consequence of gene flow.
 
 \subsection{Conclusions}
 Our phylogenomic analyses present new hypotheses and insights into the evolutionary
 history of this rapidly radiated clade, and demonstrate that the divergence history
 of this group is more complex than morphology alone reveals. 
 % 
-We discover that an overwhelming signal of geographically structured ancestry, 
-where species co-distributed in connected 
+Overall, we discover an overwhelming signal of geographically structured ancestry, 
+where many species co-distributed across these regions also carry clear signals of admixture.
 
-Future work should include the remaining unsampled taxa so that questions concerning biogeographic history, dispersal, and diversification linked to climatic, topographical, or pollination shifts (Sharma et al., 2024) s=ince Delphinium’s arrival to North America can be tested. While a full sampling of all Delphinium sect. Diedropetala species is required, the need for a major revision of higher-level taxonomy within this clade is clear, which should aim to identify morphological characteristics among species that are concordant with the monophyletic clades supported by molecular evidence.
+Future work should include the remaining unsampled taxa so that questions concerning biogeographic history, dispersal, and diversification linked to climatic, topographical, or pollination shifts (Sharma et al., 2024) since \emph{Delphinium}’s arrival to North America can be tested. While a full sampling of all \emph{Delphinium} sect. \emph{Diedropetala} species is required, the need for a major revision of higher-level taxonomy within this clade is clear, which should aim to identify morphological characteristics among species that are concordant with the monophyletic clades supported by molecular evidence.
 
+\subsection{Data Availability}
+All sequence data are available on the NCBI sequence read archive under project
+identifier PRNJXXX. Phylip formatted sequence alignment files and newick formatted tree files are available on DRYAD at doi/.... The newick file of our species tree hypothesis inferred by caster-site with population mapping for 41 taxa was submitted to Treebase (...).
+
+\subsection{Acknowledgments}
+...
 
 \bibliographystyle{ecol_let}
 \bibliography{references}  
