@@ -88,6 +88,7 @@ Keywords: Larkspur, Hybridization, Plant, Syngameon, Alpine, RAD-seq, Biogeograp
 \RaggedRight
 
 \section*{Abstract}
+\emph{Delphinium} sect. \emph{Diedropetala} (North American \emph{Delphinium}) comprises 60 described species in the Flora of North America. We present an updated phylogenomic species tree for the western taxa, along with a geographic informed analysis of hybridization, which highlights the need for substantial taxonomic revision in this clade. We generated ddRAD-seq data for 34 species and inferred phylogenetic trees using both maximum-likelihood and multispecies-coalescent-based methods. To investigate putative hybridization within this group, we calculated D-statistics using ABBA-BABA tests, and examined principle component analyses of subclades involved in species complexes. While a full sampling of the remaining North American \emph{Delphinium} species is a vital next step for a comprehensive understanding of their evolutionary history, our results offer a significant improvement on the phylogenetic inference of this rapidly radiated clade.
 
 \section*{Introduction}
 % Western North America contains unresolved plant clades that we need to understand better
@@ -411,7 +412,7 @@ above to infer ML trees.
 To examine population structure we used the \emph{ipyrad-analysis} pca tool to 
 extract unlinked SNPs and perform Principal Component Analyses (PCA). 
 % 
-We ran this analysis on both the focused dataset (18 samples) and on a
+We conducted this analysis on both the focused dataset (18 samples) and on a
 larger dataset that includes other closely related species and potentially
 admixed species (39 samples).
 % 
@@ -435,7 +436,7 @@ contributors, GIS User Community).
 	\centering
 	  \includegraphics[width=0.99\textwidth]{./figures/caster-trees.pdf}	
 	\caption{
-		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala} inferred from the min10 SNP dataset using caster-site. Colored rectangles highlight groups that correspond well with distinct geographic regions, representing higher-level clades. Populations and individuals sampled from within the same taxon designation form monophyletic clades, except in a few cases involving \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and \emph{D. alpestre}.
+		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala} inferred from the min10 SNP dataset using caster-site. Colored rectangles highlight groups that correspond well with distinct geographic regions, representing higher-level clades. Bracketed names to the right of tips refer to sample accession numbers (see Table S1). Populations and individuals sampled from within the same taxon designation form monophyletic clades, except in a few cases involving \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and \emph{D. alpestre}.
 	}
 	\label{fig:bigtree}
 \end{figure}
@@ -512,7 +513,7 @@ analyses and discussion on the larger recovered clades in our study.
 		Southwestern USA, gray: other).
 		(b) A rooted species tree topology inferred from the min10 SNP dataset using 
 		caster-site with population mapping of 150 individuals to 41 populations, 
-		shown with local block bootstrap supports.
+		shown with local block bootstrap supports. Non-monophyletic taxa are indicated by a species-specific population number to the right of the tip name that corresponds to sample accession numbers (see Table S1).
 		One or more biogeographic states occupied by each taxon are shown in a colored
 		marker next to each tip.
 		The current subsection designation of each taxon from the Flora of North America is
@@ -523,7 +524,7 @@ analyses and discussion on the larger recovered clades in our study.
 		of each tree), but support for internal splits between major clades have lower 
 		support.
 		(g) Images of members of \emph{Delphinium} sect. \emph{Diedropetala} 
-		(Photo credits: \emph{D. viridescens} from the Burke Herbarium at the University of Washington, and \emph{D. xantholeucum} from Eastern Washington University).
+		(photos of \emph{D. scaposum} and \emph{D. carolinianum} from Lady Bird Johnson Wildflower Center at the University of Texas; \emph{D. viridescens} from the Burke Herbarium at the University of Washington; all others by author).
 	}
 	\label{fig:sptree}
 \end{figure}
@@ -622,7 +623,7 @@ It is represented by four species in our study,
 These species tend to have large geographic ranges, occurring in subalpine
 environments both in this region and surrounding regions.
 % 
-They all share a medium stature with moderate sized inflorescences of blue-purple flowers with medium length (9-18 mm) spurs. 
+They all share a medium to large stature with moderate to large sized inflorescences of blue, purple, or white flowers with medium length (9-18 mm) spurs. 
 
 
 The ALCAN clade includes \emph{D. brachycentrum}, which is endemic to tundra environments in Alaska and northern Asia, and the widespread species \emph{D. glaucum}, a tall larkspur whose range spans much of the North American Cordillera from Alaska and British Columbia down through the Northern Rockies, with populations also present in the Cascades and Sierra Nevada. 
@@ -823,7 +824,7 @@ analyses together provide multiple lines of genomic evidence to support previous
 	\centering
 	  \includegraphics[width=0.99\textwidth]{./figures/ramosum-robustum-alpestre4}	
 	\caption{
-        Hybrid complex of \emph{D. robustum}, \emph{D. ramosum}, and \emph{D. cf. alpestre} in the Southern Rocky Mountains. 
+        Hybrid complex of \emph{D. robustum}, \emph{D. ramosum}, and \emph{D. alpestre} in the Southern Rocky Mountains. 
         (a-b) Three distinct clades are strongly supported in phylogenetic results, grouping samples by geography rather than by species determinations based on morphology.
         (c) A genomic PCA similarly groups samples by geography. Low opacity points show variation over replicate runs using randomly sampled subsets of
         unlinked SNPs. Each sample is represented by a centroid point. Labels show individual sample names, or population names when points overlap.
@@ -833,17 +834,18 @@ analyses together provide multiple lines of genomic evidence to support previous
 \end{figure}
 
 % RAMOSUM COMPLEX
-There is also disagreement across floras concerning the distinction between \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre} 
+There is also disagreement across floras concerning the distinction between \emph{D. ramosum}, \emph{D. robustum}, and \emph{D. alpestre}
 \citep{ewan_synopsis_1945,ackerfield_flora_2022,WeberWittmann2012},
 a complex of species native to Colorado and New Mexico that are grouped into our SW clade.
 % 
-While \emph{D. alpestre} only occurs above treeline and has a uniquely small stature, \emph{D. ramosum} and \emph{D. robustum} occur in subalpine regions and are larger and morphologically similar to each other, to the extent that \emph{D. robustum} is sometimes not recognized as a distinct taxon, and instead lumped within \emph{D. ramosum} \cite[e.g.,][]{ackerfield_flora_2022}.
+While \emph{D. alpestre} only occurs above treeline and has a uniquely small stature, \emph{D. ramosum} and \emph{D. robustum} occur in subalpine communities and are larger and morphologically similar to each other, to the extent that \emph{D. robustum} is sometimes not recognized as a distinct taxon, and instead lumped within \emph{D. ramosum} \cite[e.g.,][]{ackerfield_flora_2022}. Importantly, on alpine summits where populations of \emph{D. alpestre} are found, there is almost always a corresponding population of one of these subalpine taxa at a lower elevation on the same mountain, leading some taxonomists to previously describe \emph{D. alpestre} as a variety of \emph{D. ramosum} (\emph{Delphinium ramosum} Rydberg var. \emph{alpestre} (Rydberg) W. A. Weber) \citep{warnock_taxonomic_1995}.
+
+
 Our dataset includes multiple sampled populations of each taxon. 
 % 
 In phylogenetic analyses using our full dataset, both \emph{D. ramosum} and 
 \emph{D. alpestre} are polyphyletic, with the high elevation \emph{D. alpestre}
-resolved into three different clades (Fig.~\ref{fig:bigtree}).
-We refer to each of these populations exhibiting the distinct high elevation diminutive phenotype as \emph{D. cf. alpestre}.
+resolved into three different clades (Fig.~\ref{fig:bigtree}). This pattern, along with samples from the putatively mixed Dalp4 population being split across two clades, made it difficult to assign proper placement of \emph{D. alpestre} in the species-level tree. Based on \emph{D. alpestre}'s type locality, we refer to the Dalp-2 population as true \emph{D. alpestre} and the other populations exhibiting the distinct high elevation diminutive phenotype as \emph{D. cf. alpestre}.
 Similarly, we use the designations \emph{D. ramosum} and \emph{D. robustum} for
 the two populations exhibiting the lower elevation phenotype in the corresponding 
 geographic region where their types were originally described. 
@@ -851,7 +853,8 @@ The final \emph{D. ramosum}-like population, from the southwestern San Juan Moun
 % 
 Using a more densely subsampled sequence alignment (24 samples x 780,187 bp with 22.5\% missing data) generated for this subset of taxa, while using the CAL clade as a closer outgroup, we inferred an additional ML concatenation tree which further confirmed the phylogenetic relationships observed in the larger tree (Fig.~\ref{fig:robustum}a).
 % 
-As with the broader phylogenetic patterns in \emph{Delphinium} sect. \emph{Diedropetala}, relationships among populations within this clade match closely with geography, grouping into a northern, southeastern, and southwestern clade. 
+This phylogeny indicates that populations of \emph{D. alpestre} are less related to each other than they are to populations of either \emph{D. ramosum} or \emph{D. robustum} at lower elevations nearby. As with the broader phylogenetic patterns in \emph{Delphinium} sect. \emph{Diedropetala}, relationships among populations within this clade match closely with geography, grouping into a northern, southeastern, and southwestern clade. These geographical clades align well with previous biochemical analysis that identified a northern and southeastern clade chemotype as distinct from a southwestern clade chemotype \citep{cook_two_2017}.  
+
 %  
 % Within each region, the population of \emph{D. alpestre} occurs at higher 
 % elevations, consistent with its more diminutive stature, suggesting that this
@@ -1032,7 +1035,8 @@ This work was supported by the National Science Foundation (NSF DEB-2046813 awar
 
 \begin{figure}[p]
 	\centering
-	% \includegraphics[width=0.95\textwidth]{./figures/Fig2_sptree.pdf}
+    %\includegraphics[width=0.95\textwidth] {./final-figures/FigS1.pdf}
+      
 	\caption{
 		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala}
 		inferred from the min4 SNP dataset using caster-site, with supports shown from
