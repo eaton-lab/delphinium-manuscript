@@ -1,0 +1,151 @@
+sample_name,genus,collector_spp_determination,species,collectors,latitude,longitude,raw_radseq_reads,consensus_reads,clade
+Acol1-1,Aconitum,columbianum,columbianum,"Meek, Meek",42.77925,-112.15749,2104420,11298,outgroup
+Acol1-2,Aconitum,columbianum,columbianum,"Meek, Meek",42.77925,-112.15749,1085717,11272,outgroup
+Acol1-3,Aconitum,columbianum,columbianum,"Meek, Meek",42.77925,-112.15749,1626239,11657,outgroup
+Acol2-1,Aconitum,delphiniifolium,delphiniifolium,"Meek, McKenzie",61.10413,-149.67979,2982967,16850,outgroup
+Acol2-2,Aconitum,delphiniifolium,delphiniifolium,"Meek, McKenzie",61.10413,-149.67979,3013933,17889,outgroup
+Acol2-3,Aconitum,delphiniifolium,delphiniifolium,"Meek, McKenzie",61.10413,-149.67979,2776271,12839,outgroup
+Dalp1-1,Delphinium,alpestre,alpestre,"Meek, Cook",37.36749,-105.00294,1388076,13857,6
+Dalp1-2,Delphinium,alpestre,alpestre,"Meek, Cook",37.36749,-105.00294,1112836,13155,6
+Dalp2-1,Delphinium,alpestre,alpestre,Cook,39.438108,-105.91667,1007029,8861,6
+Dalp2-3,Delphinium,alpestre,alpestre,Cook,39.438108,-105.91667,2840662,9668,6
+Dalp4-1,Delphinium,alpestre,alpestre,Cook,38.328167,-106.203778,1342820,8922,6
+Dalp4-2,Delphinium,alpestre,alpestre,Cook,38.328167,-106.203778,1856146,9077,6
+Dalp5-1,Delphinium,alpestre,alpestre,Cook,38.3035,-105.862111,1610018,8811,6
+Dalp5-2,Delphinium,alpestre,alpestre,Cook,38.3035,-105.862111,879604,8135,6
+Dand1-1,Delphinium,andersonii,andersonii,Cook,44.020509,-111.790487,433631,6509,0
+Dand1-2,Delphinium,andersonii,andersonii,Cook,44.020509,-111.790487,412820,6704,0
+Dand2-1,Delphinium,andersonii,andersonii,Cook,43.245249,-114.213601,492156,6603,0
+Dand2-3,Delphinium,andersonii,andersonii,Cook,43.245249,-114.213601,618268,7581,0
+Dana1-3,Delphinium,andesicola,andesicola,"Meek, Cook",31.89515,-109.28108,1529487,14537,6
+Dana1-5,Delphinium,andesicola,andesicola,"Meek, Cook",31.89515,-109.28108,1696583,15458,6
+Dana1-6,Delphinium,andesicola,andesicola,"Meek, Cook",31.89515,-109.28108,1302122,14624,6
+Dbar1-1,Delphinium,barbeyi,barbeyi,Cook,39.2397,-111.512717,1119559,13391,3
+Dbar1-3,Delphinium,barbeyi,barbeyi,Cook,39.2397,-111.512717,1180949,13765,3
+Dbar2-2,Delphinium,barbeyi,barbeyi,Cook,38.326667,-112.370433,1594282,13857,3
+Dbar2-4,Delphinium,barbeyi,barbeyi,Cook,38.326667,-112.370433,1445623,14045,3
+Dbar3-1,Delphinium,barbeyi,barbeyi,Cook,37.672867,-112.8318,1644979,14138,3
+Dbar3-3,Delphinium,barbeyi,barbeyi,Cook,37.672867,-112.8318,1678119,13996,3
+Dbic1-2,Delphinium,bicolor,bicolor,Cook,44.979579,-113.472016,1024821,9519,1
+Dbic1-4,Delphinium,bicolor,bicolor,Cook,44.979579,-113.472016,1190161,9954,1
+Dbic2-3,Delphinium,bicolor,bicolor,Cook,44.980373,-113.468272,904628,9154,1
+Dbic2-4,Delphinium,bicolor,bicolor,Cook,44.980373,-113.468272,1232850,10196,1
+Dbra1-1,Delphinium,brachycentrum,brachycentrum,"Meek, McKenzie",65.50092,-145.39253,2770559,16437,4
+Dbra1-2,Delphinium,brachycentrum,brachycentrum,"Meek, McKenzie",65.50092,-145.39253,1478171,12558,4
+Dbra1-3,Delphinium,brachycentrum,brachycentrum,"Meek, McKenzie",65.50092,-145.39253,3533952,15277,4
+Dbra1-4,Delphinium,brachycentrum,brachycentrum,"Meek, McKenzie",65.50092,-145.39253,3778944,13135,4
+Dcal1-1,Delphinium,californicum,californicum,"Meek, McCallum",37.83893,-122.48572,1944390,11957,2
+Dcal1-2,Delphinium,californicum,californicum,"Meek, McCallum",37.83893,-122.48572,1537411,11629,2
+Dcal1-3,Delphinium,californicum,californicum,"Meek, McCallum",37.83893,-122.48572,1788047,12471,2
+Dcar1-1,Delphinium,cardinale,cardinale,"Meek, Willes, Willes",32.93922,-117.25272,6688480,11740,2
+Dcar1-2,Delphinium,cardinale,cardinale,"Meek, Willes, Willes",32.93922,-117.25272,2662047,11095,2
+Dcar1-3,Delphinium,cardinale,cardinale,"Meek, Willes, Willes",32.93922,-117.25272,3532904,11317,2
+Dcln1-1,Delphinium,carolinianum,carolinianum,Cook,40.1705263,-105.264325,715564,6744,5
+Dcln1-2,Delphinium,carolinianum,carolinianum,Cook,40.1705263,-105.264325,1074057,7055,5
+Dcln1-3,Delphinium,carolinianum,carolinianum,Cook,40.1705263,-105.264325,632913,6681,5
+Ddis1-1,Delphinium,distichum,distichum,Cook,46.903489,-120.66762,2570631,13052,1
+Ddis1-3,Delphinium,distichum,distichum,Cook,46.903489,-120.66762,2080876,15748,1
+Ddis2-2,Delphinium,distichum,distichum,Cook,46.703741,-116.540715,2464274,11814,1
+Ddis2-3,Delphinium,distichum,distichum,Cook,46.703741,-116.540715,2439835,12151,1
+Ddis3-2,Delphinium,distichum,distichum,Cook,46.904692,-120.757664,557004,8451,1
+Ddis3-4,Delphinium,distichum,distichum,Cook,46.904692,-120.757664,409429,7756,1
+Ddis5-2,Delphinium,distichum,distichum,Cook,47.487004,-118.286748,686251,9251,1
+Ddis5-3,Delphinium,distichum,distichum,Cook,47.487004,-118.286748,696871,8985,1
+Ddis6-1,Delphinium,distichum,distichum,Cook,46.165296,-117.293713,1025630,10706,1
+Ddis6-2,Delphinium,distichum,distichum,Cook,46.165296,-117.293713,825505,9911,1
+Dexa1-1,Delphinium,exaltatum,exaltatum,"Meek, Taylor",39.1765,-78.193772,1019810,7525,4
+Dexa1-2,Delphinium,exaltatum,exaltatum,"Meek, Taylor",39.1765,-78.193772,1061920,6822,4
+Dexa1-3,Delphinium,exaltatum,exaltatum,"Meek, Taylor",39.1765,-78.193772,1439788,7435,4
+Dger1-2,Delphinium,geraniifolium,geraniifolium,"Meek, Cook",35.3317,-111.7138,2794634,14374,6
+Dger1-3,Delphinium,geraniifolium,geraniifolium,"Meek, Cook",35.3317,-111.7138,1304434,14122,6
+Dger2-1,Delphinium,geraniifolium,geraniifolium,"Meek, Cook",34.99755,-111.74025,1336600,13862,6
+Dger2-4,Delphinium,geraniifolium,geraniifolium,"Meek, Cook",34.99755,-111.74025,1590116,13902,6
+Dgey1-4,Delphinium,geyeri,geyeri,"Meek, Cook",40.50829,-105.19543,1387537,13970,3
+Dgey1-5,Delphinium,geyeri,geyeri,"Meek, Cook",40.50829,-105.19543,1758840,14321,3
+Dgey3-2,Delphinium,geyeri,geyeri,"Meek, Cook",40.2039105,-105.308933,3210768,9050,3
+Dgey3-4,Delphinium,geyeri,geyeri,"Meek, Cook",40.2039105,-105.308933,3263024,9152,3
+Dgla2-3,Delphinium,glaucescens,glaucescens,Cook,45.340317,-112.9013,2817784,13957,3
+Dgla2-4,Delphinium,glaucescens,glaucescens,Cook,45.340317,-112.9013,4304097,13952,3
+Dgla3-2,Delphinium,glaucescens,glaucescens,Cook,44.6498,-112.753033,4439623,14290,3
+Dgla3-3,Delphinium,glaucescens,glaucescens,Cook,44.6498,-112.753033,2478158,14525,3
+Dglm1-3,Delphinium,glaucum,glaucum,Cook,38.63445,-120.12925,1358802,13706,4
+Dglm1-4,Delphinium,glaucum,glaucum,Cook,38.63445,-120.12925,1230410,13337,4
+Dglm2-2,Delphinium,glaucum,glaucum,Cook,38.328017,-119.637067,1939895,14236,4
+Dglm2-5,Delphinium,glaucum,glaucum,Cook,38.328017,-119.637067,1427059,13012,4
+Dglm3-1,Delphinium,glaucum,glaucum,"Meek, McKenzie",61.50624,-148.99997,2046256,12950,4
+Dglm3-2,Delphinium,glaucum,glaucum,"Meek, McKenzie",61.50624,-148.99997,1171924,12233,4
+Dglm4-2,Delphinium,glaucum,glaucum,"Meek, McKenzie",64.19697,-145.83328,4831068,13599,4
+Dglm4-3,Delphinium,glaucum,glaucum,"Meek, McKenzie",64.19697,-145.83328,3036283,16886,4
+Dgyp1-1,Delphinium,gypsophilum,gypsophilum,"Meek, McCallum",35.46859,-120.37941,1433002,12415,2
+Dgyp1-2,Delphinium,gypsophilum,gypsophilum,"Meek, McCallum",35.46859,-120.37941,906953,11753,2
+Dgyp1-3,Delphinium,gypsophilum,gypsophilum,"Meek, McCallum",35.46859,-120.37941,1653265,12933,2
+Dhes1-1,Delphinium,hesperium_pallescens,hesperium_pallescens,"Meek, McCallum",36.36017,-120.8493,848914,8646,2
+Dhes1-2,Delphinium,hesperium_pallescens,hesperium_pallescens,"Meek, McCallum",36.36017,-120.8493,971456,9300,2
+Dhes1-3,Delphinium,hesperium_pallescens,hesperium_pallescens,"Meek, McCallum",36.36017,-120.8493,1597107,11555,2
+Dlin1-2,Delphinium,lineapetalum,lineapetalum,Cook,47.12647,-120.808774,2535819,12166,1
+Dlin1-4,Delphinium,lineapetalum,lineapetalum,Cook,47.12647,-120.808774,1959445,14503,1
+Dmul1-1,Delphinium,multiplex,multiplex,Cook,47.140384,-120.68956,1584749,16259,1
+Dmul1-4,Delphinium,multiplex,multiplex,Cook,47.140384,-120.68956,1485516,15221,1
+Dmul2-1,Delphinium,multiplex,multiplex,Cook,47.146414,-120.620125,542040,8332,1
+Dmul2-4,Delphinium,multiplex,multiplex,Cook,47.146414,-120.620125,453891,8446,1
+Dmul3-1,Delphinium,multiplex,multiplex,Cook,46.882233,-120.773439,639424,9339,1
+Dmul3-2,Delphinium,multiplex,multiplex,Cook,46.882233,-120.773439,795329,9493,1
+Dmul4-3,Delphinium,multiplex,multiplex,Cook,47.12647,-120.808744,973839,10599,1
+Dmul4-4,Delphinium,multiplex,multiplex,Cook,47.12647,-120.808744,752700,9834,1
+Dmul5-1,Delphinium,multiplex,multiplex,Cook,46.904692,-120.759724,568227,9026,1
+Dmul5-2,Delphinium,multiplex,multiplex,Cook,46.904692,-120.759724,722580,9670,1
+Dnov1-1,Delphinium,novomexicanum,novomexicanum,"Meek, Cook",33.39571,-105.76862,1495276,14234,6
+Dnov1-2,Delphinium,novomexicanum,novomexicanum,"Meek, Cook",33.39571,-105.76862,1650961,14397,6
+Dnov2-3,Delphinium,novomexicanum,novomexicanum,"Meek, Cook",33.41915,-105.73335,2483657,15522,6
+Dnov2-4,Delphinium,novomexicanum,novomexicanum,"Meek, Cook",33.41915,-105.73335,2453197,14650,6
+Dnud1-1,Delphinium,nudicaule,nudicaule,"Meek, McCallum",37.90703,-122.60309,1645749,11666,-1
+Dnud1-2,Delphinium,nudicaule,nudicaule,"Meek, McCallum",37.90703,-122.60309,1981079,11719,-1
+Dnut7-1,Delphinium,nuttallianum,nuttallianum,Cook,41.6816,-112.003667,1091238,8947,1
+Dnut7-2,Delphinium,nuttallianum,nuttallianum,Cook,41.6816,-112.003667,940411,8768,1
+Dnut9-1,Delphinium,nuttallianum,nuttallianum,Cook,45.37565,-118.6477,2528298,9030,1
+Dnut9-2,Delphinium,nuttallianum,nuttallianum,Cook,45.37565,-118.6477,1274137,9436,1
+Dnut14-1,Delphinium,nuttallianum,nuttallianum,Cook,47.327624,-119.75214,2134020,6851,1
+Dnut14-4,Delphinium,nuttallianum,nuttallianum,Cook,47.327624,-119.75214,2107567,7154,1
+Docc7-2,Delphinium,occidentale,occidentale,Cook,41.9011,-113.35355,2108461,13377,3
+Docc7-3,Delphinium,occidentale,occidentale,Cook,41.9011,-113.35355,1677758,12476,3
+Docc15-1,Delphinium,occidentale,occidentale,Cook,40.3833,-106.584017,1280538,13054,3
+Docc15-3,Delphinium,occidentale,occidentale,Cook,40.3833,-106.584017,1267566,13239,3
+Dpar1-1,Delphinium,parryi,parryi,"Meek, McCallum",36.64627,-121.77221,1270538,10876,2
+Dpar1-2,Delphinium,parryi,parryi,"Meek, McCallum",36.64627,-121.77221,1099176,10083,2
+Dpar1-3,Delphinium,parryi,parryi,"Meek, McCallum",36.64627,-121.77221,846158,9314,2
+Dpat1-1,Delphinium,patens_patens,patens_patens,"Meek, McCallum",37.91529,-121.94756,1793223,15600,-1
+Dram3-2,Delphinium,ramosum,ramosum,Cook,40.56767,-105.58964,1632501,13652,6
+Dram3-3,Delphinium,ramosum,ramosum,Cook,40.56767,-105.58964,1531783,14287,6
+Dram4-1,Delphinium,ramosum,ramosum,Cook,38.0125,-107.196667,934442,12817,6
+Dram4-3,Delphinium,ramosum,ramosum,Cook,38.0125,-107.196667,1111000,13215,6
+Dram10-1,Delphinium,ramosum,ramosum,Cook,38.17441,-106.5727,548707,7949,6
+Dram10-4,Delphinium,ramosum,ramosum,Cook,38.17441,-106.5727,634557,8182,6
+Drob1-1,Delphinium,robustum,robustum,"Meek, Cook",36.9981,-104.3649,1660412,14449,6
+Drob1-2,Delphinium,robustum,robustum,"Meek, Cook",36.9981,-104.3649,1927248,14560,6
+Drob5-1,Delphinium,robustum,robustum,"Meek, Cook",37.23974,-105.04458,1670744,11821,6
+Drob5-2,Delphinium,robustum,robustum,"Meek, Cook",37.23974,-105.04458,526625,8082,6
+Dsap1-2,Delphinium,sapellonis,sapellonis,"Meek, Cook",35.85879,-105.46876,1936968,14512,6
+Dsap1-6,Delphinium,sapellonis,sapellonis,"Meek, Cook",35.85879,-105.46876,1804815,15169,6
+Dsap2-2,Delphinium,sapellonis,sapellonis,Cook,35.21097,-106.45003,1499344,8900,6
+Dsap2-3,Delphinium,sapellonis,sapellonis,Cook,35.21097,-106.45003,1039597,8805,6
+Dsca2-1,Delphinium,scaposum,scaposum,Cook,37.599767,-114.503767,1403248,7534,0
+Dsca2-3,Delphinium,scaposum,scaposum,Cook,37.599767,-114.503767,399462,5777,0
+Dsca3-3,Delphinium,scaposum,scaposum,Cook,36.498166,-113.011261,620430,7762,0
+Dsca3-4,Delphinium,scaposum,scaposum,Cook,36.498166,-113.011261,1844651,10892,0
+Dsco2-1,Delphinium,scopulorum,scopulorum,Cook,32.91566,-107.71527,1812483,9264,6
+Dsco2-4,Delphinium,scopulorum,scopulorum,Cook,32.91566,-107.71527,1436741,8985,6
+Dsco3-3,Delphinium,scopulorum,scopulorum,Cook,32.90908,-107.80544,720585,8354,6
+Dsco3-4,Delphinium,scopulorum,scopulorum,Cook,32.90908,-107.80544,682501,8108,6
+Dsta1-1,Delphinium,stachydeum,stachydeum,Cook,41.675283,-117.541867,542270,10879,0
+Dsta1-5,Delphinium,stachydeum,stachydeum,Cook,41.675283,-117.541867,652536,11215,0
+Dsta1-8,Delphinium,stachydeum,stachydeum,Cook,41.675283,-117.541867,653403,11708,0
+Dtro1-2,Delphinium,trolliifolium,trolliifolium,Cook,45.572806,-122.200884,554645,6976,-1
+Dtro1-3,Delphinium,trolliifolium,trolliifolium,Cook,45.572806,-122.200884,718730,7258,-1
+Dtro1-4,Delphinium,trolliifolium,trolliifolium,Cook,45.572806,-122.200884,700440,7511,-1
+Dvir1-2,Delphinium,viridescens,viridescens,Cook,47.471233,-120.587417,1177888,11954,1
+Dvir1-3,Delphinium,viridescens,viridescens,Cook,47.471233,-120.587417,967591,11631,1
+Dvir1-4,Delphinium,viridescens,viridescens,Cook,47.471233,-120.587417,1297919,12538,1
+Dxan1-1,Delphinium,xantholeucum,xantholeucum,Cook,47.570885,-120.338197,634496,7435,1
+Dxan1-3,Delphinium,xantholeucum,xantholeucum,Cook,47.570885,-120.338197,471706,6231,1
+Dxan2-1,Delphinium,xantholeucum,xantholeucum,Cook,47.663913,-120.288364,130955,1667,1
+Dxan2-4,Delphinium,xantholeucum,xantholeucum,Cook,47.663913,-120.288364,740663,7471,1
