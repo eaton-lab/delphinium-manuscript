@@ -179,7 +179,11 @@ research, but also to detecting associations between environments and the evolut
 
 
 A prime example of these dynamics is the North American clade  \emph{Delphinium} 
-sect. \emph{Diedropetala} \textcolor{red}{Huth. After originating in the Himalaya-Hengduan region of Asia \textasciitilde~32 Ma, \emph{Delphinium} L. diversified into 650-700 species, speciating both west (through Eurasia, the Mediterranean, and into Africa) and east, arriving in western North America \textasciitilde~3 Ma, where it rapidly radiated into approximately 60 species} \citep{jabbour_phylogeny_2012}.
+sect. \emph{Diedropetala} \textcolor{red}{Huth. After originating in the Himalaya-Hengduan region of Asia \textasciitilde~32 Ma, \emph{Delphinium} L. diversified into 650-700 species,
+dispersing and speciating west through Eurasia, the Mediterranean, and into Africa, and east through eastern Asia, 
+only recently
+arriving in western North America \textasciitilde~3 Ma, where it rapidly radiated 
+into approximately 60 species} \citep{jabbour_phylogeny_2012}.
 % 
 \textcolor{red}{While \emph{Delphinium} exhibits both annual and perennial life cycles, all} species of th\textcolor{red}{e North American sect. \emph{Diedropetala}} are perennial herbaceous plants characterized by large 
 showy flowers that are typically blue and purple, and less commonly red, yellow, 
@@ -260,8 +264,13 @@ diversification of \emph{Delphinium}.
 Many putative hybrids have been described based on morphological descriptions 
 \citep{ewan_synopsis_1945, warnock_taxonomic_1995, legro_species_1961, koontz_hybrid_2001},
 but the extent to which they contribute to introgressive gene 
-flow between species remains unknown. \textcolor{red}{Our primary objectives in this study were to use genome-wide data to resolve the backbone of \emph{Delphinium} sect. 
-\emph{Diedropetala} and investigate the extent to which widespread hybridization and introgession has contributed to its diversification throughout North America. To achieve this,} we generated a new reduced-representation genomic dataset to 
+flow between species remains unknown. \textcolor{red}{Our primary objectives in this 
+study are to use genome-wide data to resolve the phylogenetic backbone of 
+\emph{Delphinium} sect. \emph{Diedropetala} and investigate the frequency
+of introgressive hybridization with respect to species barriers and geography.
+% extent to which widespread hybridization and 
+% introgession has contributed to its diversification throughout North America. 
+To achieve this,} we generated a new reduced-representation genomic dataset to 
 investigate phylogeny and introgression across \emph{Delphinium} sect. 
 \emph{Diedropetala}.
 % 
@@ -286,9 +295,9 @@ Lab as part of a long-term research program concerning toxicity in \emph{Delphin
 tissues were stored freeze-dried.
 % 
 This dataset includes 150 individuals, with replicate samples of 34 \emph{Delphinium} 
-taxa collected from multiple geographically disjunct populations. \textcolor{red}{When possible, we collected species from their type localities, and our sampling includes
+taxa collected from multiple geographically disjunct populations. \textcolor{red}{When possible, we collected species from their type specimen localities, and our sampling includes
 at least one taxon as a representative of each subsection in the FNA treatment of
-\emph{Delphinium}, including the type specimen for subsections \emph{Bicoloria} (Rydberg) N. I. Malyutin, \emph{Exaltata} 
+\emph{Delphinium}, including the type species for subsections \emph{Bicoloria} (Rydberg) N. I. Malyutin, \emph{Exaltata} 
 N. I. Malyutin, \emph{Multiplex} M. J. Warnock, and \emph{Subscaposa} Ewan.}
 We included samples from two \emph{Aconitum} L. species as outgroups.
 All collections have associated geographic coordinates (Table S1) and voucher 
@@ -335,7 +344,7 @@ We inferred phylogenetic relationships at both the individual and population-lev
 We generated two concatenated supermatrix datasets comprising either
 all loci shared across at least four samples (`min4' dataset) or 
 ten samples (`min10' dataset), using the \emph{ipyrad-analysis} 
-‘window\_extracter’ tool \citep{eaton_ipyrad_2020}.
+window\_extracter tool \citep{eaton_ipyrad_2020}.
 %
 For each dataset we inferred a maximum likelihood phylogenetic tree in
 \emph{raxml-ng} v.1.2.2 \citep{kozlov_raxml-ng_2019} using the GTR+G substitution
@@ -368,15 +377,15 @@ determined as \emph{D. alpestre} Rydberg.
 
 \textcolor{red}{
 We also inferred individual gene trees for RAD-seq loci to use as input to the species tree program
-Astral IV v1.23.4.6 \citep{zhang_aster_2025}. 
+ASTRAL IV v1.23.4.6 \citep{zhang_aster_2025}. 
 For this analysis, we selected a subset of individuals that had the greatest 
 number of assembled loci from each of the 41 populations identified above. 
 This allowed us to select a subset of loci that were shared across these samples and 
 contained sufficient information for gene tree inference.
-For these samples we used the \emph{ipyrad-analysis} ‘tree\_slider’ tool to select all loci that
+For these samples we used the \emph{ipyrad-analysis} tree\_slider tool to select all loci that
 contained at least 10 samples from this subset, and a minimum of five variant sites 
 after pruning all other samples. For each locus, we inferred an ML tree in raxml-ng as described 
-above. We collapsed all edges with bootstrap support <50\%, and input the set of trees to Astral 
+above. We collapsed all edges with bootstrap support <50\%, and input the set of trees to ASTRAL 
 to infer a species tree under default settings.
 }
 The Python package \emph{toytree} \citep{eaton_toytree_2020} was used to collapse low support edges, 
@@ -494,7 +503,7 @@ contributors, GIS User Community).
 	\centering
 	  \includegraphics[width=0.99\textwidth]{./final-figures/Fig1.pdf}	
 	\caption{
-		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala} inferred from the min10 SNP dataset using caster. Colored rectangles highlight groups that correspond well with distinct geographic regions, representing higher-level clades. Bracketed names to the right of tips refer to sample accession numbers (see Table S1). Populations and individuals sampled from within the same taxon designation form monophyletic clades, except in a few cases involving \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and \emph{D. alpestre}.
+		A rooted phylogenetic tree for 150 samples of \emph{Delphinium} sect. \emph{Diedropetala} inferred from the min10 SNP dataset using \emph{caster}. Colored rectangles highlight groups that correspond well with distinct geographic regions, representing higher-level clades. Bracketed names to the right of tips refer to sample accession numbers (see Table S1). Populations and individuals sampled from within the same taxon designation form monophyletic clades, except in a few cases involving \emph{D. distichum}, \emph{D. nuttallianum}, \emph{D. ramosum}, and \emph{D. alpestre}.
 	}
 	\label{fig:bigtree}
 \end{figure}
@@ -502,7 +511,7 @@ contributors, GIS User Community).
 
 \subsection{Taxonomy}
 We propose a set of formal taxonomic names, following the Phylocode protocol \citep{deQueiroz2020phylo}, for the six higher-level clades containing more than one taxon that were consistently recovered across our phylogenomic analyses (Appendix 1).
-To identify additional supporting evidence for these clades beyond genomics, we employed OpenAI's ChatGPT (GPT‑4) in a tool-enabled agent-based framework to retrieve and analyze morphological descriptions for each taxon. The agent performed structured searches to retrieve data from the Flora of North America \citep{Warnock_1997_FNA_Delphinium} and other authoritative referenced sources, fetching details on stem height, leaf morphology, inflorescence size, sepal color, spur length and habitat. After collating these character states, it identified synapomorphies that unite members of our specified clades, and  drafted clade definitions that highlight diagnostic characters. All data-based statements are linked to references. The process was iterative with feedback from the authors to generate etymologically appropriate names, revise formatting, and suggest additional comparisons. \textcolor{red}{Manual measurements of herbarium specimens were conducted to verify that morphological characters defined by AI were consistent for the newly defined clades.} 
+To identify additional supporting evidence for these clades beyond genomics, we employed OpenAI's ChatGPT (GPT‑4) in a tool-enabled agent-based framework to retrieve and analyze morphological descriptions for each taxon. The agent performed structured searches to retrieve data from the Flora of North America \citep{Warnock_1997_FNA_Delphinium} and other authoritative referenced sources, fetching details on stem height, leaf morphology, inflorescence size, sepal color, spur length and habitat. After collating these character states, it identified synapomorphies that unite members of our specified clades, and  drafted clade definitions that highlight diagnostic characters. All data-based statements are linked to references. The process was iterative with feedback from the authors to generate etymologically appropriate names, revise formatting, and suggest additional comparisons. \textcolor{red}{Manual measurements of herbarium specimens were conducted to verify that morphological characters extracted by the agent were consistent for the newly defined clades.} 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -533,7 +542,7 @@ species consistently grouped into monophyletic clades, with a few exceptions
 observed within \emph{D. distichum} Geyer ex A. Gray, \emph{D. nuttallianum} Pritzel, 
 \emph{D. ramosum}, and \emph{D. alpestre} (addressed below in the context of admixture).
 % 
-Caster recovered the same tree topology from both the `min4' and `min10' 
+\Caster recovered the same tree topology from both the `min4' and `min10' 
 datasets (Fig.~\ref{fig:bigtree}, Fig.~\ref{fig:S1}), while the ML trees
 inferred by raxml-ng differed from each other, and from the caster topology.
 % 
@@ -554,7 +563,7 @@ trees, respectively.
 Among our two analyses that grouped individuals into 41 populations, or 
 subsampled a single individual from each of those populations, the resulting
 topologies were similar. The SNP-based caster population analysis recovered the 
-same relationships as in the caster analysis of all individuals. The Astral species
+same relationships as in the caster analysis of all individuals. The ASTRAL species
 tree analysis based on inferred gene trees also recovered a similar topology, but 
 with many internal edges receiving <50\% support (Fig.~\ref{fig:S4}). 
 This analysis was based on
@@ -579,7 +588,7 @@ analyses and discussion on the larger recovered clades in our study.
 	\includegraphics[width=0.95\textwidth]{./final-figures/Fig2.pdf}
 	\caption{
 		Phylogeny and biogeographic distribution of \emph{Delphinium} sect. \emph{Diedropetala}.
-		(a) Locations of samples used in this study.	Color codes match to those used to 
+		(a) Locations of samples used in this study. Color codes match to those used to 
 		represent distinct clades in (b) that correspond closely with the following
 		biogeographic regions (black: Great Basin, yellow: Pacific Northwest, red: California, orange: 
 		Intermountain West, blue: Alaska and Canada, green: Eastern USA, purple: 
@@ -596,7 +605,8 @@ analyses and discussion on the larger recovered clades in our study.
 		Support for monophyly of each clade is consistently >95\% (values at the tips
 		of each tree), but support for internal splits between major clades have lower 
 		support.
-		(g) Images of members of \emph{Delphinium} sect. \emph{Diedropetala}. \textcolor{red}{Color of species names correspond with clades or biogeographic regions shown in (b), but the species shown are not necessarily representative of the morphological characters of their entire clade or region} (photos of \emph{D. scaposum} and \emph{D. carolinianum} from Lady Bird Johnson Wildflower Center at the University of Texas; \emph{D. viridescens} from the Burke Herbarium at the University of Washington; all others by author).
+		(g) Images of members of \emph{Delphinium} sect. \emph{Diedropetala}. 
+        \textcolor{red}{Colored blocks around species names correspond with clades or biogeographic regions shown in (b), but the species shown are not necessarily representative of the morphological characters of their entire clade or region} (photos of \emph{D. scaposum} and \emph{D. carolinianum} from Lady Bird Johnson Wildflower Center at the University of Texas; \emph{D. viridescens} from the Burke Herbarium at the University of Washington; all others by author).
 	}
 	\label{fig:sptree}
 \end{figure}
