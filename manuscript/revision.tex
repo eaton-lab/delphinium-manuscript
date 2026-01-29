@@ -345,7 +345,7 @@ starting trees, and with 200 non-parametric bootstrap replicates.
 Because concatenation can lead to biased inference in the presence of incomplete
 lineage sorting, 
 \textcolor{red}{
-we also employed species tree inference approaches.
+we also employed coalescent-based species tree inference approaches.
 First,} we inferred a species tree from each dataset using 
 \emph{caster} v.1.19 \citep{doi:10.1126/science.adk9688}, a SNP-based approach 
 for inferring species trees from quartet relationships.
@@ -368,7 +368,7 @@ determined as \emph{D. alpestre} Rydberg.
 
 \textcolor{red}{
 We also inferred individual gene trees for RAD-seq loci to use as input to the species tree program
-Astral IV v1.23.4.6 \citep{zhang}. 
+Astral IV v1.23.4.6 \citep{zhang_aster_2025}. 
 For this analysis, we selected a subset of individuals that had the greatest 
 number of assembled loci from each of the 41 populations identified above. 
 This allowed us to select a subset of loci that were shared across these samples and 
@@ -376,7 +376,7 @@ contained sufficient information for gene tree inference.
 For these samples we used the \emph{ipyrad-analysis} ‘tree\_slider’ tool to select all loci that
 contained at least 10 samples from this subset, and a minimum of five variant sites 
 after pruning all other samples. For each locus, we inferred an ML tree in raxml-ng as described 
-above. We collapsed all edges with bootstrap support <50\%, and input the set of trees to ASTRAL 
+above. We collapsed all edges with bootstrap support <50\%, and input the set of trees to Astral 
 to infer a species tree under default settings.
 }
 The Python package \emph{toytree} \citep{eaton_toytree_2020} was used to collapse low support edges, 
@@ -527,7 +527,6 @@ The `min10' dataset included 29,196 loci with a total alignment size of
 
 
 \subsection{Phylogenetic inference recovers monophyletic taxa}
-\textcolor{red}{DEREN add some stuff about the ASTRAL tree and reference to its supplementary figure in this section}
 
 All phylogenetic analyses recovered topologies showing individuals of the same 
 species consistently grouped into monophyletic clades, with a few exceptions 
@@ -550,6 +549,20 @@ information metric \citep[MCI;][]{smith_information_2020}, show that the two
 ML topologies share 93.3\% of information in common, while the caster topology
 shares 86.0 and 91.3\% of information in common with the ML min4 and min10 
 trees, respectively.
+
+\textcolor{red}{
+Among our two analyses that grouped individuals into 41 populations, or 
+subsampled a single individual from each of those populations, the resulting
+topologies were similar. The SNP-based caster population analysis recovered the 
+same relationships as in the caster analysis of all individuals. The Astral species
+tree analysis based on inferred gene trees also recovered a similar topology, but 
+with many internal edges receiving <50\% support (Fig.~\ref{fig:S4}). 
+This analysis was based on
+3,121 gene trees that passed our filtering thresholds, but the information content
+in individual gene trees was very low. The average number of internal edges per tree
+was only 2.18 after collapsing edges with <50\% support. Therefore, we put greater 
+confidence in the raxml-ng and caster results. 
+}
 
 All of our tree hypotheses support three early diverging lineages that split
 from the rest of our sampled \emph{Delphinium} taxa early in the radiation. 
@@ -678,16 +691,15 @@ It is represented by four species in our study,
 These species tend to have large geographic ranges, occurring in subalpine
 environments both in this region and surrounding regions.
 % 
-They all share a medium to large stature with moderate to large sized inflorescences of blue, purple, or white flowers with medium length (9-18 mm) spurs. 
-
+\textcolor{red}{They all exhibit moderate to tall stems (35-150 cm) and lobed leaves (2-9 cm x 3-15 cm), with racemes composed of 6-50 flowers that are purple, blue, or pale-blue with medium length (9-18 mm) spurs.} 
 
 The ALCAN clade includes \emph{D. brachycentrum} Ledebour, which is endemic to tundra environments in Alaska and northern Asia, and the widespread species \emph{D. glaucum} S. Watson, a tall larkspur whose range spans much of the North American Cordillera from Alaska and British Columbia down through the Northern Rockies, with populations also present in the Cascades and Sierra Nevada. 
 Surprisingly, this group also includes \emph{D. exaltatum} Aiton, which occurs broadly in eastern North America and exhibits a disjunct pattern between the Appalachian and Ozark Mountains \citep{mohn2021exaltatum}. The two populations of \emph{D. glaucum} group monophyletically in the caster topologies, 
 but \emph{D. glaucum} from Alaska groups with the \emph{D. brachycentrum} in the ML topologies.
 % Members of this are all in the Exaltata subsection,
 % representing the "tall larkspurs". 
-Members of this clade vary in stature (the subarctic \emph{D. brachycentrum} is short) 
-but are united by having glabrous to glaucous stems, moderate‑length spurs, 
+Members of this clade vary in stature (the subarctic \emph{D. brachycentrum} is short \textcolor{red}{(20-50 cm) compared to \emph{D. glaucum} and \emph{D. exaltatum} (70-200 cm)}) 
+but are united by having glabrous to glaucous stems, moderate‑length spurs \textcolor{red}{(9-17 mm)}, 
 paler flowers, and tending to occur in moist and rocky habitats, in contrast to 
 morphologically similar, but dry adapted members of the CAL clade.
 
@@ -725,12 +737,7 @@ Admixture is most common between taxa within the same geographically structured
 clades, or between clades with overlapping geographic ranges.
 % 
 These patterns are consistent across alternative species tree hypotheses as well 
-(Fig.~\ref{fig:S4},~\ref{fig:S5}).
-% 
-We suspect that some of these hypothetical introgression events may
-represent false positives that can arise from non-independent signals of
-admixture among multiple hybridizing taxa \citep{eaton_historical_2015, malinsky_dsuite_2021}.
-Extinct and unsampled lineages may also contribute to these patterns.
+\textcolor{red}{(Fig.~\ref{fig:S5},~\ref{fig:S6}).}
 % 
 To avoid over-interpretation of these results, we focus below on describing 
 the strongest signals of admixture, their taxonomic and geographic scope, 
@@ -1002,8 +1009,10 @@ previously reported to hybridize (e.g., \emph{D. glaucum} x \emph{D. bicolor}),
 identifying case studies for future investigations.
 
 Not every hypothesized introgression event reconstructed from our f-branch results 
-in Fig.~\ref{fig:fbranch} is likely to be true. Both analytical and bioinformatic
-errors can inflate these estimates. Because each test examines only one quartet of taxa at a time, and different sets of taxa may share different sets of loci in RAD-seq datasets, even methods like the f-branch statistic that aim to account for the non-independence among tests may yield false positives. Nevertheless, ABBA-BABA tests have been widely applied to RAD-seq datasets \citep{heliconius_genome_consortium_butterfly_2012, eaton_inferring_2013, eaton_historical_2015, mccluskey_phylogeny_2015, vargas_conflicting_2017},
+in Fig.~\ref{fig:fbranch} is likely to be true. \textcolor{red}{Both analytical and bioinformatic
+errors can inflate these estimates, and extinct and unsampled lineages may also contribute to these patterns. We suspect that some of the hypothetical introgression events may
+represent false positives that can arise from non-independent signals of
+admixture among multiple hybridizing taxa \citep{eaton_historical_2015, malinsky_dsuite_2021}.} Because each test examines only one quartet of taxa at a time, and different sets of taxa may share different sets of loci in RAD-seq datasets, even methods like the f-branch statistic that aim to account for the non-independence among tests may yield false positives. Nevertheless, ABBA-BABA tests have been widely applied to RAD-seq datasets \citep{heliconius_genome_consortium_butterfly_2012, eaton_inferring_2013, eaton_historical_2015, mccluskey_phylogeny_2015, vargas_conflicting_2017},
 and do not typically lead to estimates of introgression nearly as abundant as observed in this study, suggesting our results are not an artifact of using anonymous genomic markers alone.
 % 
 Similarly, while bionformatic errors related to paralogy estimation and variant calling
@@ -1025,11 +1034,10 @@ analyses, that do not rely on a species tree hypothesis.
 % 
 In this study, we are limited by the information available in short 
 \emph{de novo} assembled RAD-seq loci, which individually do not 
-generally contain sufficient information to infer gene trees to use as
-input to common phylogenetic network inference tools \citep{solis-lemus_inferring_2016}.
+generally contain sufficient information to infer reliable gene trees to use as input to common phylogenetic network inference tools \citep{solis-lemus_inferring_2016}.
 % 
 Thus, we were not able to confidently apply this approach to our data.
-\textcolor{red}{These limitations of RAD-seq loci also inhibited us from inferring a reliable chloroplast phylogeny as a point of comparison and validation with our nuclear phylogenies.
+\textcolor{red}{The limitations of RAD-seq loci also inhibited us from inferring a reliable chloroplast phylogeny as a point of comparison and validation with our nuclear phylogenies.
 % 
 % Network-based analyses can similarly have greater power to infer unsampled
 % branches, and to resolve the rooting of \emph{Delphinium} section \emph{Diedropetala}
@@ -1144,12 +1152,11 @@ Sequence data is available on the NCBI sequence read archive under project ident
 	\label{fig:S3}
 \end{figure}
 
-
 \begin{figure}[p]
 	\centering
 	% \includegraphics[width=0.95\textwidth]{./figures/FigS4.pdf}
 	\caption{
-		f-branch analysis of admixture performed on the raxml-min4 species tree hypothesis.	
+		Astral species tree inferred from 3,121 gene trees from individual RAD-seq loci.
 	}
 	\label{fig:S4}
 \end{figure}
@@ -1158,9 +1165,18 @@ Sequence data is available on the NCBI sequence read archive under project ident
 	\centering
 	% \includegraphics[width=0.95\textwidth]{./figures/FigS5.pdf}
 	\caption{
-		f-branch analysis of admixture performed on the raxml-min10 species tree hypothesis.
+		f-branch analysis of admixture performed on the raxml-min4 species tree hypothesis.	
 	}
 	\label{fig:S5}
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	% \includegraphics[width=0.95\textwidth]{./figures/FigS6.pdf}
+	\caption{
+		f-branch analysis of admixture performed on the raxml-min10 species tree hypothesis.
+	}
+	\label{fig:S6}
 \end{figure}
 
 \begin{table}[p]
